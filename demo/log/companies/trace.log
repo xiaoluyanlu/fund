@@ -1,0 +1,65 @@
+2023-10-03 10:25:05.490 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.1.Final
+2023-10-03 10:25:05.548 INFO  com.xlyl.gen.config.GenXlsxTest                   :51   [32m                  [0;39m Starting GenXlsxTest using Java 17.0.5 with PID 23940 (started by 86173 in E:\workspace\fund\demo)
+2023-10-03 10:25:05.549 INFO  com.xlyl.gen.config.GenXlsxTest                   :637  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-03 10:25:06.705 INFO  com.xlyl.gen.config.GenXlsxTest                   :57   [32m                  [0;39m Started GenXlsxTest in 1.538 seconds (process running for 2.321)
+2023-10-03 10:25:10.584 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-1 - Starting...
+2023-10-03 10:25:10.867 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  [32m                  [0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@647af13d
+2023-10-03 10:25:10.869 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-1 - Start completed.
+2023-10-03 10:25:11.015 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
+2023-10-03 10:25:11.024 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
+2023-10-03 10:25:32.109 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.1.Final
+2023-10-03 10:25:32.129 INFO  com.xlyl.gen.config.GenXlsxTest                   :51   [32m                  [0;39m Starting GenXlsxTest using Java 17.0.5 with PID 22220 (started by 86173 in E:\workspace\fund\demo)
+2023-10-03 10:25:32.130 INFO  com.xlyl.gen.config.GenXlsxTest                   :637  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-03 10:25:33.257 INFO  com.xlyl.gen.config.GenXlsxTest                   :57   [32m                  [0;39m Started GenXlsxTest in 1.43 seconds (process running for 2.15)
+2023-10-03 10:25:35.049 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-1 - Starting...
+2023-10-03 10:25:35.286 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  [32m                  [0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@647af13d
+2023-10-03 10:25:35.288 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-1 - Start completed.
+2023-10-03 10:25:35.363 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
+2023-10-03 10:25:35.365 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
+2023-10-03 10:26:31.270 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.1.Final
+2023-10-03 10:26:31.291 INFO  com.xlyl.gen.config.GenXlsxTest                   :51   [32m                  [0;39m Starting GenXlsxTest using Java 17.0.5 with PID 25328 (started by 86173 in E:\workspace\fund\demo)
+2023-10-03 10:26:31.292 INFO  com.xlyl.gen.config.GenXlsxTest                   :637  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-03 10:26:32.448 INFO  com.xlyl.gen.config.GenXlsxTest                   :57   [32m                  [0;39m Started GenXlsxTest in 1.462 seconds (process running for 2.19)
+2023-10-03 10:26:34.228 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-1 - Starting...
+2023-10-03 10:26:34.472 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  [32m                  [0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@430106cf
+2023-10-03 10:26:34.474 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-1 - Start completed.
+2023-10-03 10:26:34.554 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
+2023-10-03 10:26:34.559 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
+2023-10-03 10:27:36.319 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.1.Final
+2023-10-03 10:27:36.340 INFO  com.xlyl.gen.config.GenXlsxTest                   :51   [32m                  [0;39m Starting GenXlsxTest using Java 17.0.5 with PID 23952 (started by 86173 in E:\workspace\fund\demo)
+2023-10-03 10:27:36.342 INFO  com.xlyl.gen.config.GenXlsxTest                   :637  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-03 10:27:37.502 INFO  com.xlyl.gen.config.GenXlsxTest                   :57   [32m                  [0;39m Started GenXlsxTest in 1.484 seconds (process running for 2.201)
+2023-10-03 10:27:39.242 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-1 - Starting...
+2023-10-03 10:27:39.479 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  [32m                  [0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@740ee00f
+2023-10-03 10:27:39.513 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-1 - Start completed.
+2023-10-03 10:27:39.544 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
+2023-10-03 10:27:39.547 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
+2023-10-03 11:24:35.140 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.1.Final
+2023-10-03 11:24:35.172 INFO  com.xlyl.gen.config.GenXlsxTest                   :51   [32m                  [0;39m Starting GenXlsxTest using Java 17.0.5 with PID 12936 (started by 86173 in E:\workspace\fund\demo)
+2023-10-03 11:24:35.174 INFO  com.xlyl.gen.config.GenXlsxTest                   :637  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-03 11:24:36.375 INFO  com.xlyl.gen.config.GenXlsxTest                   :57   [32m                  [0;39m Started GenXlsxTest in 1.595 seconds (process running for 2.325)
+2023-10-03 11:24:38.150 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-1 - Starting...
+2023-10-03 11:24:38.391 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  [32m                  [0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@430106cf
+2023-10-03 11:24:38.393 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-1 - Start completed.
+2023-10-03 11:25:24.955 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
+2023-10-03 11:25:24.964 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
+2023-10-03 21:55:12.734 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2023-10-03 21:55:12.772 INFO  com.xlyl.gen.config.GenXlsxTest                   :51   [32m                  [0;39m Starting GenXlsxTest using Java 17.0.5 with PID 8580 (started by 86173 in E:\workspace\fund\demo)
+2023-10-03 21:55:12.773 INFO  com.xlyl.gen.config.GenXlsxTest                   :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-03 21:55:13.985 INFO  com.xlyl.gen.config.GenXlsxTest                   :57   [32m                  [0;39m Started GenXlsxTest in 1.599 seconds (process running for 2.608)
+2023-10-03 21:55:53.558 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2023-10-03 21:55:53.580 INFO  com.xlyl.gen.config.GenXlsxTest                   :51   [32m                  [0;39m Starting GenXlsxTest using Java 17.0.5 with PID 35616 (started by 86173 in E:\workspace\fund\demo)
+2023-10-03 21:55:53.581 INFO  com.xlyl.gen.config.GenXlsxTest                   :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-03 21:55:54.752 INFO  com.xlyl.gen.config.GenXlsxTest                   :57   [32m                  [0;39m Started GenXlsxTest in 1.501 seconds (process running for 2.188)
+2023-10-03 21:56:19.416 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2023-10-03 21:56:19.440 INFO  com.xlyl.gen.config.GenXlsxTest                   :51   [32m                  [0;39m Starting GenXlsxTest using Java 17.0.5 with PID 33984 (started by 86173 in E:\workspace\fund\demo)
+2023-10-03 21:56:19.441 INFO  com.xlyl.gen.config.GenXlsxTest                   :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-03 21:56:20.598 INFO  com.xlyl.gen.config.GenXlsxTest                   :57   [32m                  [0;39m Started GenXlsxTest in 1.489 seconds (process running for 2.185)
+2023-10-03 22:01:10.719 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2023-10-03 22:01:10.739 INFO  com.xlyl.gen.config.GenXlsxTest                   :51   [32m                  [0;39m Starting GenXlsxTest using Java 17.0.5 with PID 34120 (started by 86173 in E:\workspace\fund\demo)
+2023-10-03 22:01:10.740 INFO  com.xlyl.gen.config.GenXlsxTest                   :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-03 22:01:11.883 INFO  com.xlyl.gen.config.GenXlsxTest                   :57   [32m                  [0;39m Started GenXlsxTest in 1.465 seconds (process running for 2.169)
+2023-10-03 22:01:32.932 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2023-10-03 22:01:32.953 INFO  com.xlyl.gen.config.GenXlsxTest                   :51   [32m                  [0;39m Starting GenXlsxTest using Java 17.0.5 with PID 28972 (started by 86173 in E:\workspace\fund\demo)
+2023-10-03 22:01:32.954 INFO  com.xlyl.gen.config.GenXlsxTest                   :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-03 22:01:34.056 INFO  com.xlyl.gen.config.GenXlsxTest                   :57   [32m                  [0;39m Started GenXlsxTest in 1.425 seconds (process running for 2.119)

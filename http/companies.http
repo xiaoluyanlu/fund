@@ -1,0 +1,43 @@
+###  查询出所有的热门企业 按照时间排序 最近创建的排在前面
+GET http://localhost:8001/companies
+
+###  新增企业
+POST http://localhost:8001/companies/add
+Content-Type: application/json
+
+{
+  "orgUniCode": 2023050505,
+  "orgChiName": "晓路言路jj",
+  "induSmaPar": "其他",
+  "orgDele": "小鹿",
+  "regCap": 9999.99,
+  "orgEstDate": 1694620800000
+}
+
+###  根据公司id查询指定企业  (1708840013673926656)
+GET http://localhost:8001/companies/1708840013673926656
+
+###  根据公司id更新指定企业  (1708840013673926656)
+PUT http://localhost:8001/companies/upd
+Content-Type: application/json
+
+{
+  "id": "1708840013673926656",
+  "orgUniCode": 2023050505,
+  "orgChiName": "晓路言路jj",
+  "induSmaPar": "其他",
+  "orgDele": "小鹿",
+  "regCap": 9999.88,
+  "orgEstDate": 1694620800000
+}
+
+###  根据公司id删除指定企业
+DELETE http://localhost:8001/companies/1708853574726979584
+
+###  生成基金的数据(生成基金 找的是有效发行时间  未找到就返回0  除去周六日为有效时间) 数据不够所以都是0
+GET http://localhost:8001/companies/gen-fund
+
+###  分页查询基金信息返回指定的字段(数据库的字段  unit_net_val  排序升序asc )
+GET http://localhost:8001/companies/fund?pageNum=1&pageSize=5&sortField=unit_net_val&sortDirection=asc
+
+

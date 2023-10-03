@@ -1,0 +1,1603 @@
+2023-10-03 20:36:41.598 ERROR c.xlyl.common.exception.ControllerExceptionHandler:31   [32m                  [0;39m 系统异常: 
+java.lang.NumberFormatException: Character array is missing "e" notation exponential mark.
+	at java.base/java.math.BigDecimal.<init>(BigDecimal.java:645)
+	at java.base/java.math.BigDecimal.<init>(BigDecimal.java:471)
+	at java.base/java.math.BigDecimal.<init>(BigDecimal.java:900)
+	at com.xlyl.companies.service.impl.FundServiceImpl.lambda$genFund$0(FundServiceImpl.java:69)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1421)
+	at com.xlyl.companies.service.impl.FundServiceImpl.genFund(FundServiceImpl.java:49)
+	at com.xlyl.companies.controller.FundController.genFund(FundController.java:37)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1080)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:973)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:895)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:705)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:880)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1739)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-10-03 20:38:32.944 ERROR c.xlyl.common.exception.ControllerExceptionHandler:31   [32m                  [0;39m 系统异常: 
+java.lang.NumberFormatException: Character array is missing "e" notation exponential mark.
+	at java.base/java.math.BigDecimal.<init>(BigDecimal.java:645)
+	at java.base/java.math.BigDecimal.<init>(BigDecimal.java:471)
+	at java.base/java.math.BigDecimal.<init>(BigDecimal.java:900)
+	at com.xlyl.companies.service.impl.FundServiceImpl.lambda$genFund$0(FundServiceImpl.java:69)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1421)
+	at com.xlyl.companies.service.impl.FundServiceImpl.genFund(FundServiceImpl.java:49)
+	at com.xlyl.companies.controller.FundController.genFund(FundController.java:37)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1080)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:973)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:895)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:705)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:880)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1739)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-10-03 20:40:37.156 ERROR c.xlyl.common.exception.ControllerExceptionHandler:31   [32m                  [0;39m 系统异常: 
+java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266)
+	at java.base/java.util.Objects.checkIndex(Objects.java:359)
+	at java.base/java.util.ArrayList.get(ArrayList.java:427)
+	at com.xlyl.companies.service.impl.FundServiceImpl.getDecimal(FundServiceImpl.java:167)
+	at com.xlyl.companies.service.impl.FundServiceImpl.getNetVal(FundServiceImpl.java:134)
+	at com.xlyl.companies.service.impl.FundServiceImpl.lambda$genFund$0(FundServiceImpl.java:73)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1421)
+	at com.xlyl.companies.service.impl.FundServiceImpl.genFund(FundServiceImpl.java:49)
+	at com.xlyl.companies.controller.FundController.genFund(FundController.java:37)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1080)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:973)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:895)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:705)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:880)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1739)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-10-03 20:51:28.934 ERROR c.xlyl.common.exception.ControllerExceptionHandler:31   [32m                  [0;39m 系统异常: 
+java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266)
+	at java.base/java.util.Objects.checkIndex(Objects.java:359)
+	at java.base/java.util.ArrayList.get(ArrayList.java:427)
+	at com.xlyl.companies.service.impl.FundServiceImpl.getDecimal(FundServiceImpl.java:168)
+	at com.xlyl.companies.service.impl.FundServiceImpl.getNetVal(FundServiceImpl.java:135)
+	at com.xlyl.companies.service.impl.FundServiceImpl.lambda$genFund$0(FundServiceImpl.java:74)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1421)
+	at com.xlyl.companies.service.impl.FundServiceImpl.genFund(FundServiceImpl.java:49)
+	at com.xlyl.companies.controller.FundController.genFund(FundController.java:37)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1080)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:973)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:895)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:705)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:880)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1739)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-10-03 20:52:50.653 ERROR c.xlyl.common.exception.ControllerExceptionHandler:31   [32m                  [0;39m 系统异常: 
+java.lang.ArithmeticException: Non-terminating decimal expansion; no exact representable decimal result.
+	at java.base/java.math.BigDecimal.divide(BigDecimal.java:1780)
+	at com.xlyl.companies.service.impl.FundServiceImpl.getDecimal(FundServiceImpl.java:172)
+	at com.xlyl.companies.service.impl.FundServiceImpl.getNetVal(FundServiceImpl.java:135)
+	at com.xlyl.companies.service.impl.FundServiceImpl.lambda$genFund$0(FundServiceImpl.java:74)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1421)
+	at com.xlyl.companies.service.impl.FundServiceImpl.genFund(FundServiceImpl.java:49)
+	at com.xlyl.companies.controller.FundController.genFund(FundController.java:37)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1080)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:973)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:895)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:705)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:880)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1739)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-10-03 20:55:30.001 ERROR c.xlyl.common.exception.ControllerExceptionHandler:31   [32m                  [0;39m 系统异常: 
+java.lang.RuntimeException: null
+	at com.xlyl.companies.service.impl.FundServiceImpl.lambda$genFund$0(FundServiceImpl.java:117)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1421)
+	at com.xlyl.companies.service.impl.FundServiceImpl.genFund(FundServiceImpl.java:49)
+	at com.xlyl.companies.controller.FundController.genFund(FundController.java:37)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1080)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:973)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:895)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:705)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:880)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1739)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-10-03 20:56:24.343 ERROR c.xlyl.common.exception.ControllerExceptionHandler:31   [32m                  [0;39m 系统异常: 
+java.lang.RuntimeException: null
+	at com.xlyl.companies.service.impl.FundServiceImpl.lambda$genFund$0(FundServiceImpl.java:118)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1421)
+	at com.xlyl.companies.service.impl.FundServiceImpl.genFund(FundServiceImpl.java:49)
+	at com.xlyl.companies.controller.FundController.genFund(FundController.java:37)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1080)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:973)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:895)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:705)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:880)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1739)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-10-03 20:59:21.205 ERROR c.xlyl.common.exception.ControllerExceptionHandler:31   [32m                  [0;39m 系统异常: 
+java.lang.RuntimeException: null
+	at com.xlyl.companies.service.impl.FundServiceImpl.lambda$genFund$0(FundServiceImpl.java:118)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1421)
+	at com.xlyl.companies.service.impl.FundServiceImpl.genFund(FundServiceImpl.java:49)
+	at com.xlyl.companies.controller.FundController.genFund(FundController.java:37)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1080)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:973)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:895)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:705)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:880)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1739)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-10-03 21:00:36.471 ERROR c.xlyl.common.exception.ControllerExceptionHandler:31   [32m                  [0;39m 系统异常: 
+java.lang.RuntimeException: null
+	at com.xlyl.companies.service.impl.FundServiceImpl.lambda$genFund$0(FundServiceImpl.java:118)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1421)
+	at com.xlyl.companies.service.impl.FundServiceImpl.genFund(FundServiceImpl.java:49)
+	at com.xlyl.companies.controller.FundController.genFund(FundController.java:37)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1080)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:973)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:895)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:705)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:880)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1739)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-10-03 21:09:50.477 ERROR c.xlyl.common.exception.ControllerExceptionHandler:31   [32m                  [0;39m 系统异常: 
+java.lang.NumberFormatException: Character array is missing "e" notation exponential mark.
+	at java.base/java.math.BigDecimal.<init>(BigDecimal.java:645)
+	at java.base/java.math.BigDecimal.<init>(BigDecimal.java:471)
+	at java.base/java.math.BigDecimal.<init>(BigDecimal.java:900)
+	at com.xlyl.companies.service.impl.FundServiceImpl.lambda$genFund$0(FundServiceImpl.java:71)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1421)
+	at com.xlyl.companies.service.impl.FundServiceImpl.genFund(FundServiceImpl.java:49)
+	at com.xlyl.companies.controller.FundController.genFund(FundController.java:37)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1080)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:973)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:895)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:705)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:880)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1739)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-10-03 21:13:34.730 ERROR c.xlyl.common.exception.ControllerExceptionHandler:31   [32m                  [0;39m 系统异常: 
+java.lang.RuntimeException: null
+	at com.xlyl.companies.service.impl.FundServiceImpl.lambda$genFund$0(FundServiceImpl.java:118)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1421)
+	at com.xlyl.companies.service.impl.FundServiceImpl.genFund(FundServiceImpl.java:49)
+	at com.xlyl.companies.controller.FundController.genFund(FundController.java:37)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1080)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:973)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:895)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:705)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:880)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1739)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-10-03 21:16:12.840 ERROR c.xlyl.common.exception.ControllerExceptionHandler:31   [32m                  [0;39m 系统异常: 
+java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266)
+	at java.base/java.util.Objects.checkIndex(Objects.java:359)
+	at java.base/java.util.ArrayList.get(ArrayList.java:427)
+	at com.xlyl.companies.service.impl.FundServiceImpl.getDecimal(FundServiceImpl.java:169)
+	at com.xlyl.companies.service.impl.FundServiceImpl.getNetVal(FundServiceImpl.java:136)
+	at com.xlyl.companies.service.impl.FundServiceImpl.lambda$genFund$0(FundServiceImpl.java:74)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1421)
+	at com.xlyl.companies.service.impl.FundServiceImpl.genFund(FundServiceImpl.java:50)
+	at com.xlyl.companies.controller.FundController.genFund(FundController.java:37)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1080)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:973)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:895)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:705)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:880)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1739)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-10-03 21:19:10.054 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :177  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-10-04 21:19:09
+2023-10-03 21:19:10.055 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :177  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-10-10 21:19:09
+2023-10-03 21:19:10.055 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :177  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-11-02 21:19:09
+2023-10-03 21:19:10.056 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :177  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2024-01-01 21:19:09
+2023-10-03 21:19:10.056 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :177  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2024-10-02 21:19:09
+2023-10-03 21:19:10.057 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :177  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2025-10-02 21:19:09
+2023-10-03 21:19:10.057 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :177  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2026-10-02 21:19:09
+2023-10-03 21:19:10.057 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :177  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-10-31 21:19:09
+2023-10-03 21:19:10.058 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :177  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-10-10 21:19:09
+2023-10-03 21:19:10.059 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :177  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2024-02-13 21:19:09
+2023-10-03 21:19:10.059 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :177  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-10-10 21:19:09
+2023-10-03 21:19:10.060 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :177  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2024-02-13 21:19:09
+2023-10-03 21:19:10.065 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :177  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-10-04 21:19:09
+2023-10-03 21:19:10.065 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :177  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-10-10 21:19:09
+2023-10-03 21:19:10.066 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :177  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-11-02 21:19:09
+2023-10-03 21:19:10.066 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :177  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2024-01-01 21:19:09
+2023-10-03 21:19:10.066 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :177  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2024-10-02 21:19:09
+2023-10-03 21:19:10.066 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :177  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2025-10-02 21:19:09
+2023-10-03 21:19:10.067 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :177  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2026-10-02 21:19:09
+2023-10-03 21:19:10.067 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :177  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-10-31 21:19:09
+2023-10-03 21:19:10.071 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :177  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-10-04 21:19:09
+2023-10-03 21:19:10.071 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :177  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-10-10 21:19:09
+2023-10-03 21:19:10.071 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :177  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-11-02 21:19:09
+2023-10-03 21:19:10.071 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :177  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2024-01-01 21:19:09
+2023-10-03 21:19:10.072 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :177  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2024-10-02 21:19:09
+2023-10-03 21:19:10.072 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :177  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2025-10-02 21:19:09
+2023-10-03 21:19:10.072 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :177  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2026-10-02 21:19:09
+2023-10-03 21:19:10.073 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :177  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-10-31 21:19:09
+2023-10-03 21:19:10.105 ERROR c.xlyl.common.exception.ControllerExceptionHandler:31   [32m                  [0;39m 系统异常: 
+java.lang.NullPointerException: null
+	at java.base/java.util.stream.ReferencePipeline$6$1.accept(ReferencePipeline.java:248)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.DoublePipeline.collect(DoublePipeline.java:541)
+	at java.base/java.util.stream.DoublePipeline.average(DoublePipeline.java:493)
+	at com.xlyl.companies.service.impl.FundServiceImpl.lambda$genFund$0(FundServiceImpl.java:70)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1421)
+	at com.xlyl.companies.service.impl.FundServiceImpl.genFund(FundServiceImpl.java:50)
+	at com.xlyl.companies.controller.FundController.genFund(FundController.java:37)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1080)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:973)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:895)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:705)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:880)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1739)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-10-03 21:27:51.625 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :177  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-10-04 21:27:50
+2023-10-03 21:27:51.625 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :177  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-10-10 21:27:50
+2023-10-03 21:27:51.626 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :177  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-11-02 21:27:50
+2023-10-03 21:27:51.626 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :177  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2024-01-01 21:27:50
+2023-10-03 21:27:51.626 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :177  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2024-10-02 21:27:50
+2023-10-03 21:27:51.626 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :177  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2025-10-02 21:27:50
+2023-10-03 21:27:51.627 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :177  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2026-10-02 21:27:50
+2023-10-03 21:27:51.627 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :177  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-10-31 21:27:50
+2023-10-03 21:27:51.628 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :177  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-10-10 21:27:50
+2023-10-03 21:27:51.628 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :177  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2024-02-13 21:27:50
+2023-10-03 21:27:51.629 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :177  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-10-10 21:27:50
+2023-10-03 21:27:51.629 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :177  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2024-02-13 21:27:50
+2023-10-03 21:27:51.634 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :177  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-10-04 21:27:50
+2023-10-03 21:27:51.634 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :177  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-10-10 21:27:50
+2023-10-03 21:27:51.634 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :177  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-11-02 21:27:50
+2023-10-03 21:27:51.635 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :177  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2024-01-01 21:27:50
+2023-10-03 21:27:51.635 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :177  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2024-10-02 21:27:50
+2023-10-03 21:27:51.635 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :177  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2025-10-02 21:27:50
+2023-10-03 21:27:51.636 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :177  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2026-10-02 21:27:50
+2023-10-03 21:27:51.636 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :177  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-10-31 21:27:50
+2023-10-03 21:27:51.640 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :177  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-10-04 21:27:50
+2023-10-03 21:27:51.640 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :177  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-10-10 21:27:50
+2023-10-03 21:27:51.641 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :177  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-11-02 21:27:50
+2023-10-03 21:27:51.641 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :177  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2024-01-01 21:27:50
+2023-10-03 21:27:51.641 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :177  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2024-10-02 21:27:50
+2023-10-03 21:27:51.642 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :177  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2025-10-02 21:27:50
+2023-10-03 21:27:51.642 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :177  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2026-10-02 21:27:50
+2023-10-03 21:27:51.642 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :177  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-10-31 21:27:50
+2023-10-03 21:27:51.653 ERROR c.xlyl.common.exception.ControllerExceptionHandler:31   [32m                  [0;39m 系统异常: 
+java.lang.NullPointerException: null
+	at java.base/java.util.stream.ReferencePipeline$6$1.accept(ReferencePipeline.java:248)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.DoublePipeline.collect(DoublePipeline.java:541)
+	at java.base/java.util.stream.DoublePipeline.average(DoublePipeline.java:493)
+	at com.xlyl.companies.service.impl.FundServiceImpl.lambda$genFund$1(FundServiceImpl.java:70)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1421)
+	at com.xlyl.companies.service.impl.FundServiceImpl.genFund(FundServiceImpl.java:50)
+	at com.xlyl.companies.controller.FundController.genFund(FundController.java:37)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1080)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:973)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:895)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:705)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:880)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1739)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-10-03 21:30:58.445 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :178  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-10-04 21:30:57
+2023-10-03 21:30:58.446 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :178  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-10-10 21:30:57
+2023-10-03 21:30:58.479 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :178  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-11-02 21:30:57
+2023-10-03 21:30:58.480 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :178  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2024-01-01 21:30:57
+2023-10-03 21:30:58.481 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :178  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2024-10-02 21:30:57
+2023-10-03 21:30:58.481 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :178  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2025-10-02 21:30:57
+2023-10-03 21:30:58.482 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :178  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2026-10-02 21:30:57
+2023-10-03 21:30:58.482 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :178  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-10-31 21:30:57
+2023-10-03 21:30:58.484 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :178  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-10-10 21:30:57
+2023-10-03 21:30:58.484 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :178  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2024-02-13 21:30:57
+2023-10-03 21:30:58.486 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :178  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-10-10 21:30:57
+2023-10-03 21:30:58.486 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :178  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2024-02-13 21:30:57
+2023-10-03 21:30:58.494 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :178  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-10-04 21:30:57
+2023-10-03 21:30:58.494 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :178  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-10-10 21:30:57
+2023-10-03 21:30:58.495 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :178  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-11-02 21:30:57
+2023-10-03 21:30:58.495 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :178  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2024-01-01 21:30:57
+2023-10-03 21:30:58.496 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :178  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2024-10-02 21:30:57
+2023-10-03 21:30:58.496 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :178  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2025-10-02 21:30:57
+2023-10-03 21:30:58.496 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :178  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2026-10-02 21:30:57
+2023-10-03 21:30:58.497 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :178  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-10-31 21:30:57
+2023-10-03 21:30:58.501 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :178  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-10-04 21:30:57
+2023-10-03 21:30:58.501 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :178  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-10-10 21:30:57
+2023-10-03 21:30:58.501 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :178  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-11-02 21:30:57
+2023-10-03 21:30:58.501 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :178  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2024-01-01 21:30:57
+2023-10-03 21:30:58.502 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :178  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2024-10-02 21:30:57
+2023-10-03 21:30:58.502 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :178  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2025-10-02 21:30:57
+2023-10-03 21:30:58.502 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :178  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2026-10-02 21:30:57
+2023-10-03 21:30:58.502 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :178  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-10-31 21:30:57
+2023-10-03 21:30:58.513 ERROR c.xlyl.common.exception.ControllerExceptionHandler:31   [32m                  [0;39m 系统异常: 
+java.lang.NullPointerException: null
+	at java.base/java.util.stream.ReferencePipeline$6$1.accept(ReferencePipeline.java:248)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.DoublePipeline.collect(DoublePipeline.java:541)
+	at java.base/java.util.stream.DoublePipeline.average(DoublePipeline.java:493)
+	at com.xlyl.companies.service.impl.FundServiceImpl.lambda$genFund$1(FundServiceImpl.java:71)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1421)
+	at com.xlyl.companies.service.impl.FundServiceImpl.genFund(FundServiceImpl.java:50)
+	at com.xlyl.companies.controller.FundController.genFund(FundController.java:37)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1080)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:973)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:895)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:705)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:880)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1739)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-10-03 21:34:03.483 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :179  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-10-04 21:34:02
+2023-10-03 21:34:03.484 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :179  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-10-10 21:34:02
+2023-10-03 21:34:03.484 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :179  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-11-02 21:34:02
+2023-10-03 21:34:03.484 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :179  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2024-01-01 21:34:02
+2023-10-03 21:34:03.484 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :179  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2024-10-02 21:34:02
+2023-10-03 21:34:03.485 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :179  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2025-10-02 21:34:02
+2023-10-03 21:34:03.485 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :179  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2026-10-02 21:34:02
+2023-10-03 21:34:03.485 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :179  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-10-31 21:34:02
+2023-10-03 21:34:03.486 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :179  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-10-10 21:34:02
+2023-10-03 21:34:03.486 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :179  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2024-02-13 21:34:02
+2023-10-03 21:34:03.487 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :179  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-10-10 21:34:02
+2023-10-03 21:34:03.487 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :179  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2024-02-13 21:34:02
+2023-10-03 21:34:03.493 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :179  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-10-04 21:34:02
+2023-10-03 21:34:03.493 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :179  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-10-10 21:34:02
+2023-10-03 21:34:03.493 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :179  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-11-02 21:34:02
+2023-10-03 21:34:03.494 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :179  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2024-01-01 21:34:02
+2023-10-03 21:34:03.494 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :179  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2024-10-02 21:34:02
+2023-10-03 21:34:03.494 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :179  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2025-10-02 21:34:02
+2023-10-03 21:34:03.495 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :179  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2026-10-02 21:34:02
+2023-10-03 21:34:03.495 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :179  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-10-31 21:34:02
+2023-10-03 21:34:03.499 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :179  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-10-04 21:34:02
+2023-10-03 21:34:03.500 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :179  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-10-10 21:34:02
+2023-10-03 21:34:03.500 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :179  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-11-02 21:34:02
+2023-10-03 21:34:03.500 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :179  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2024-01-01 21:34:02
+2023-10-03 21:34:03.501 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :179  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2024-10-02 21:34:02
+2023-10-03 21:34:03.501 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :179  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2025-10-02 21:34:02
+2023-10-03 21:34:03.501 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :179  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2026-10-02 21:34:02
+2023-10-03 21:34:03.501 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :179  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-10-31 21:34:02
+2023-10-03 21:34:03.517 ERROR c.xlyl.common.exception.ControllerExceptionHandler:31   [32m                  [0;39m 系统异常: 
+java.lang.NullPointerException: Cannot read field "intCompact" because "subtrahend" is null
+	at java.base/java.math.BigDecimal.subtract(BigDecimal.java:1527)
+	at com.xlyl.companies.service.impl.FundServiceImpl.getDecimal(FundServiceImpl.java:175)
+	at com.xlyl.companies.service.impl.FundServiceImpl.getNetVal(FundServiceImpl.java:138)
+	at com.xlyl.companies.service.impl.FundServiceImpl.lambda$genFund$2(FundServiceImpl.java:116)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1421)
+	at com.xlyl.companies.service.impl.FundServiceImpl.genFund(FundServiceImpl.java:50)
+	at com.xlyl.companies.controller.FundController.genFund(FundController.java:37)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1080)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:973)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:895)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:705)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:880)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1739)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-10-03 21:39:56.348 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :182  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-10-04 21:39:55
+2023-10-03 21:39:56.348 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :182  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-10-10 21:39:55
+2023-10-03 21:39:56.349 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :182  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-11-02 21:39:55
+2023-10-03 21:39:56.349 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :182  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2024-01-01 21:39:55
+2023-10-03 21:39:56.349 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :182  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2024-10-02 21:39:55
+2023-10-03 21:39:56.350 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :182  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2025-10-02 21:39:55
+2023-10-03 21:39:56.350 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :182  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2026-10-02 21:39:55
+2023-10-03 21:39:56.350 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :182  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-10-31 21:39:55
+2023-10-03 21:39:56.351 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :182  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-10-10 21:39:55
+2023-10-03 21:39:56.351 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :182  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2024-02-13 21:39:55
+2023-10-03 21:39:56.352 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :182  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-10-10 21:39:55
+2023-10-03 21:39:56.352 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :182  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2024-02-13 21:39:55
+2023-10-03 21:39:56.357 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :182  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-10-04 21:39:55
+2023-10-03 21:39:56.357 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :182  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-10-10 21:39:55
+2023-10-03 21:39:56.358 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :182  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-11-02 21:39:55
+2023-10-03 21:39:56.358 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :182  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2024-01-01 21:39:55
+2023-10-03 21:39:56.358 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :182  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2024-10-02 21:39:55
+2023-10-03 21:39:56.360 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :182  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2025-10-02 21:39:55
+2023-10-03 21:39:56.360 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :182  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2026-10-02 21:39:55
+2023-10-03 21:39:56.360 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :182  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-10-31 21:39:55
+2023-10-03 21:39:56.365 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :182  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-10-04 21:39:55
+2023-10-03 21:39:56.365 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :182  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-10-10 21:39:55
+2023-10-03 21:39:56.365 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :182  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-11-02 21:39:55
+2023-10-03 21:39:56.365 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :182  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2024-01-01 21:39:55
+2023-10-03 21:39:56.366 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :182  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2024-10-02 21:39:55
+2023-10-03 21:39:56.366 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :182  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2025-10-02 21:39:55
+2023-10-03 21:39:56.366 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :182  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2026-10-02 21:39:55
+2023-10-03 21:39:56.366 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :182  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-10-31 21:39:55
+2023-10-03 21:39:56.390 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :182  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-10-04 21:39:55
+2023-10-03 21:39:56.390 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :182  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-10-10 21:39:55
+2023-10-03 21:39:56.391 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :182  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-11-02 21:39:55
+2023-10-03 21:39:56.391 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :182  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2024-01-01 21:39:55
+2023-10-03 21:39:56.392 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :182  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2024-10-02 21:39:55
+2023-10-03 21:39:56.392 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :182  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2025-10-02 21:39:55
+2023-10-03 21:39:56.392 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :182  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2026-10-02 21:39:55
+2023-10-03 21:39:56.392 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :182  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-10-31 21:39:55
+2023-10-03 21:41:28.371 ERROR c.xlyl.common.exception.ControllerExceptionHandler:31   [32m                  [0;39m 系统异常: 
+org.springframework.dao.DataIntegrityViolationException: 
+### Error updating database.  Cause: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Out of range value for column 'daily_growth_rate' at row 1
+### The error may exist in file [E:\workspace\fund\companies\target\classes\mapper\FundMapper.xml]
+### The error may involve com.xlyl.companies.mapper.FundMapper.insertSelective-Inline
+### The error occurred while setting parameters
+### SQL: insert into fund      ( id,                       fund_code,                       fund_short_name,                       count_date,                       end_date,                       unit_net_val,                       accumulate_net_val,                       daily_growth_rate,                       one_week,                       one_month,                       three_month,                       one_year,                       two_year,                       three_year,                       since_this_year,                       Since_the_establishment_of )       values ( ?,                       ?,                       ?,                       ?,                       ?,                       ?,                       ?,                       ?,                       ?,                       ?,                       ?,                       ?,                       ?,                       ?,                       ?,                       ? )
+### Cause: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Out of range value for column 'daily_growth_rate' at row 1
+; Data truncation: Out of range value for column 'daily_growth_rate' at row 1
+	at org.springframework.jdbc.support.SQLStateSQLExceptionTranslator.doTranslate(SQLStateSQLExceptionTranslator.java:100)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:70)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:79)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:79)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:92)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:439)
+	at jdk.proxy2/jdk.proxy2.$Proxy67.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:272)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:62)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:145)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at jdk.proxy2/jdk.proxy2.$Proxy70.insertSelective(Unknown Source)
+	at com.xlyl.companies.service.impl.FundServiceImpl.lambda$genFund$2(FundServiceImpl.java:126)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1421)
+	at com.xlyl.companies.service.impl.FundServiceImpl.genFund(FundServiceImpl.java:57)
+	at com.xlyl.companies.controller.FundController.genFund(FundController.java:37)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1080)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:973)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:895)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:705)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:880)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1739)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Out of range value for column 'daily_growth_rate' at row 1
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:104)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:370)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:47)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:74)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:64)
+	at jdk.proxy2/jdk.proxy2.$Proxy78.update(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:194)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:181)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:425)
+	... 60 common frames omitted
+2023-10-03 21:43:01.037 ERROR c.xlyl.common.exception.ControllerExceptionHandler:31   [32m                  [0;39m 系统异常: 
+org.springframework.dao.DataIntegrityViolationException: 
+### Error updating database.  Cause: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Out of range value for column 'daily_growth_rate' at row 1
+### The error may exist in file [E:\workspace\fund\companies\target\classes\mapper\FundMapper.xml]
+### The error may involve com.xlyl.companies.mapper.FundMapper.insertSelective-Inline
+### The error occurred while setting parameters
+### SQL: insert into fund      ( id,                       fund_code,                       fund_short_name,                       count_date,                       end_date,                       unit_net_val,                       accumulate_net_val,                       daily_growth_rate,                       one_week,                       one_month,                       three_month,                       one_year,                       two_year,                       three_year,                       since_this_year,                       Since_the_establishment_of )       values ( ?,                       ?,                       ?,                       ?,                       ?,                       ?,                       ?,                       ?,                       ?,                       ?,                       ?,                       ?,                       ?,                       ?,                       ?,                       ? )
+### Cause: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Out of range value for column 'daily_growth_rate' at row 1
+; Data truncation: Out of range value for column 'daily_growth_rate' at row 1
+	at org.springframework.jdbc.support.SQLStateSQLExceptionTranslator.doTranslate(SQLStateSQLExceptionTranslator.java:100)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:70)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:79)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:79)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:92)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:439)
+	at jdk.proxy2/jdk.proxy2.$Proxy67.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:272)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:62)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:145)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at jdk.proxy2/jdk.proxy2.$Proxy70.insertSelective(Unknown Source)
+	at com.xlyl.companies.service.impl.FundServiceImpl.lambda$genFund$2(FundServiceImpl.java:126)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1421)
+	at com.xlyl.companies.service.impl.FundServiceImpl.genFund(FundServiceImpl.java:57)
+	at com.xlyl.companies.controller.FundController.genFund(FundController.java:37)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1080)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:973)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:895)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:705)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:880)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1739)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Out of range value for column 'daily_growth_rate' at row 1
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:104)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:370)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:47)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:74)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:64)
+	at jdk.proxy2/jdk.proxy2.$Proxy78.update(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:194)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:181)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:425)
+	... 60 common frames omitted
+2023-10-03 21:47:54.029 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :187  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-10-04 21:47:53
+2023-10-03 21:47:54.030 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :187  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-10-10 21:47:53
+2023-10-03 21:47:54.030 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :187  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-11-02 21:47:53
+2023-10-03 21:47:54.030 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :187  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2024-01-01 21:47:53
+2023-10-03 21:47:54.031 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :187  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2024-10-02 21:47:53
+2023-10-03 21:47:54.031 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :187  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2025-10-02 21:47:53
+2023-10-03 21:47:54.031 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :187  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2026-10-02 21:47:53
+2023-10-03 21:47:54.031 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :187  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-10-31 21:47:53
+2023-10-03 21:47:54.036 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :187  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-10-10 21:47:53
+2023-10-03 21:47:54.036 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :187  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2024-02-13 21:47:53
+2023-10-03 21:47:54.038 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :187  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-10-10 21:47:53
+2023-10-03 21:47:54.039 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :187  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2024-02-13 21:47:53
+2023-10-03 21:47:54.051 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :187  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-10-04 21:47:53
+2023-10-03 21:47:54.051 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :187  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-10-10 21:47:53
+2023-10-03 21:47:54.051 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :187  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-11-02 21:47:53
+2023-10-03 21:47:54.052 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :187  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2024-01-01 21:47:53
+2023-10-03 21:47:54.052 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :187  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2024-10-02 21:47:53
+2023-10-03 21:47:54.052 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :187  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2025-10-02 21:47:53
+2023-10-03 21:47:54.052 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :187  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2026-10-02 21:47:53
+2023-10-03 21:47:54.052 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :187  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-10-31 21:47:53
+2023-10-03 21:47:54.066 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :187  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-10-04 21:47:53
+2023-10-03 21:47:54.066 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :187  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-10-10 21:47:53
+2023-10-03 21:47:54.066 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :187  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-11-02 21:47:53
+2023-10-03 21:47:54.066 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :187  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2024-01-01 21:47:53
+2023-10-03 21:47:54.066 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :187  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2024-10-02 21:47:53
+2023-10-03 21:47:54.066 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :187  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2025-10-02 21:47:53
+2023-10-03 21:47:54.067 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :187  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2026-10-02 21:47:53
+2023-10-03 21:47:54.067 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :187  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-10-31 21:47:53
+2023-10-03 21:47:54.121 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :187  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-10-04 21:47:53
+2023-10-03 21:47:54.121 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :187  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-10-10 21:47:53
+2023-10-03 21:47:54.122 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :187  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-11-02 21:47:53
+2023-10-03 21:47:54.122 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :187  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2024-01-01 21:47:53
+2023-10-03 21:47:54.122 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :187  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2024-10-02 21:47:53
+2023-10-03 21:47:54.122 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :187  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2025-10-02 21:47:53
+2023-10-03 21:47:54.122 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :187  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2026-10-02 21:47:53
+2023-10-03 21:47:54.122 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :187  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-10-31 21:47:53
+2023-10-03 21:59:00.051 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-10-02 21:58:59
+2023-10-03 21:59:00.051 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-09-26 21:58:59
+2023-10-03 21:59:00.051 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2022-10-03 21:58:59
+2023-10-03 21:59:00.052 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2020-10-04 21:58:59
+2023-10-03 21:59:00.052 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-01-01 21:58:59
+2023-10-03 21:59:00.056 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2022-10-03 21:58:59
+2023-10-03 21:59:00.059 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2022-10-03 21:58:59
+2023-10-03 21:59:00.073 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-10-02 21:58:59
+2023-10-03 21:59:00.073 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-09-26 21:58:59
+2023-10-03 21:59:00.074 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2022-10-03 21:58:59
+2023-10-03 21:59:00.074 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2020-10-04 21:58:59
+2023-10-03 21:59:00.075 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-01-01 21:58:59
+2023-10-03 21:59:00.086 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-10-02 21:58:59
+2023-10-03 21:59:00.086 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-09-26 21:58:59
+2023-10-03 21:59:00.087 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2022-10-03 21:58:59
+2023-10-03 21:59:00.087 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2020-10-04 21:58:59
+2023-10-03 21:59:00.087 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-01-01 21:58:59
+2023-10-03 21:59:00.174 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-10-02 21:58:59
+2023-10-03 21:59:00.175 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-09-26 21:58:59
+2023-10-03 21:59:00.175 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2022-10-03 21:58:59
+2023-10-03 21:59:00.175 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2020-10-04 21:58:59
+2023-10-03 21:59:00.175 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-01-01 21:58:59
+2023-10-03 22:09:10.339 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-10-02 22:09:09
+2023-10-03 22:09:10.344 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-09-26 22:09:09
+2023-10-03 22:09:10.360 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2022-10-03 22:09:09
+2023-10-03 22:09:10.364 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2021-10-05 22:09:09
+2023-10-03 22:09:10.368 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2020-10-04 22:09:09
+2023-10-03 22:09:10.372 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-01-01 22:09:09
+2023-10-03 22:09:10.386 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-10-02 22:09:09
+2023-10-03 22:09:10.389 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-09-26 22:09:09
+2023-10-03 22:09:10.397 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2022-10-03 22:09:09
+2023-10-03 22:09:10.400 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2021-10-05 22:09:09
+2023-10-03 22:09:10.403 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2020-10-04 22:09:09
+2023-10-03 22:09:10.406 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-01-01 22:09:09
+2023-10-03 22:09:10.414 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-10-02 22:09:09
+2023-10-03 22:09:10.415 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-09-26 22:09:09
+2023-10-03 22:09:10.418 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2022-10-03 22:09:09
+2023-10-03 22:09:10.420 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2021-10-05 22:09:09
+2023-10-03 22:09:10.421 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2020-10-04 22:09:09
+2023-10-03 22:09:10.422 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-01-01 22:09:09
+2023-10-03 22:09:10.427 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-10-02 22:09:09
+2023-10-03 22:09:10.427 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-09-26 22:09:09
+2023-10-03 22:09:10.427 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-07-05 22:09:09
+2023-10-03 22:09:10.427 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2022-10-03 22:09:09
+2023-10-03 22:09:10.429 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2021-10-05 22:09:09
+2023-10-03 22:09:10.429 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2020-10-04 22:09:09
+2023-10-03 22:09:10.429 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-01-01 22:09:09
+2023-10-03 22:09:10.432 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-10-02 22:09:09
+2023-10-03 22:09:10.432 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-09-26 22:09:09
+2023-10-03 22:09:10.433 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-07-05 22:09:09
+2023-10-03 22:09:10.433 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2022-10-03 22:09:09
+2023-10-03 22:09:10.433 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2021-10-05 22:09:09
+2023-10-03 22:09:10.433 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2020-10-04 22:09:09
+2023-10-03 22:09:10.434 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-01-01 22:09:09
+2023-10-03 22:09:10.436 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-10-02 22:09:09
+2023-10-03 22:09:10.437 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-09-26 22:09:09
+2023-10-03 22:09:10.437 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-07-05 22:09:09
+2023-10-03 22:09:10.437 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2022-10-03 22:09:09
+2023-10-03 22:09:10.437 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2021-10-05 22:09:09
+2023-10-03 22:09:10.438 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2020-10-04 22:09:09
+2023-10-03 22:09:10.438 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-01-01 22:09:09
+2023-10-03 22:09:10.447 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-10-02 22:09:09
+2023-10-03 22:09:10.450 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-09-26 22:09:09
+2023-10-03 22:09:10.462 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2022-10-03 22:09:09
+2023-10-03 22:09:10.465 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2021-10-05 22:09:09
+2023-10-03 22:09:10.470 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2020-10-04 22:09:09
+2023-10-03 22:09:10.473 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-01-01 22:09:09
+2023-10-03 22:09:10.484 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-10-02 22:09:09
+2023-10-03 22:09:10.488 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-09-26 22:09:09
+2023-10-03 22:09:10.498 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2022-10-03 22:09:09
+2023-10-03 22:09:10.501 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2021-10-05 22:09:09
+2023-10-03 22:09:10.505 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2020-10-04 22:09:09
+2023-10-03 22:09:10.509 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-01-01 22:09:09
+2023-10-03 22:09:10.517 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-10-02 22:09:09
+2023-10-03 22:09:10.517 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-09-26 22:09:09
+2023-10-03 22:09:10.517 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-07-05 22:09:09
+2023-10-03 22:09:10.517 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2022-10-03 22:09:09
+2023-10-03 22:09:10.517 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2021-10-05 22:09:09
+2023-10-03 22:09:10.518 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2020-10-04 22:09:09
+2023-10-03 22:09:10.518 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-01-01 22:09:09
+2023-10-03 22:09:10.523 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-10-02 22:09:09
+2023-10-03 22:09:10.525 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-09-26 22:09:09
+2023-10-03 22:09:10.532 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2022-10-03 22:09:09
+2023-10-03 22:09:10.534 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2021-10-05 22:09:09
+2023-10-03 22:09:10.536 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2020-10-04 22:09:09
+2023-10-03 22:09:10.538 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-01-01 22:09:09
+2023-10-03 22:09:10.544 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-10-02 22:09:09
+2023-10-03 22:09:10.545 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-09-26 22:09:09
+2023-10-03 22:09:10.546 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-07-05 22:09:09
+2023-10-03 22:09:10.547 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2022-10-03 22:09:09
+2023-10-03 22:09:10.548 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2021-10-05 22:09:09
+2023-10-03 22:09:10.549 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2020-10-04 22:09:09
+2023-10-03 22:09:10.550 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-01-01 22:09:09
+2023-10-03 22:09:10.556 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-10-02 22:09:09
+2023-10-03 22:09:10.557 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-09-26 22:09:09
+2023-10-03 22:09:10.561 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2022-10-03 22:09:09
+2023-10-03 22:09:10.562 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2021-10-05 22:09:09
+2023-10-03 22:09:10.564 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2020-10-04 22:09:09
+2023-10-03 22:09:10.565 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-01-01 22:09:09
+2023-10-03 22:09:10.569 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-10-02 22:09:09
+2023-10-03 22:09:10.569 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-09-26 22:09:09
+2023-10-03 22:09:10.570 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-07-05 22:09:09
+2023-10-03 22:09:10.570 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2022-10-03 22:09:09
+2023-10-03 22:09:10.570 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2021-10-05 22:09:09
+2023-10-03 22:09:10.570 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2020-10-04 22:09:09
+2023-10-03 22:09:10.571 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-01-01 22:09:09
+2023-10-03 22:09:10.576 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-10-02 22:09:09
+2023-10-03 22:09:10.577 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-09-26 22:09:09
+2023-10-03 22:09:10.581 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2022-10-03 22:09:09
+2023-10-03 22:09:10.582 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2021-10-05 22:09:09
+2023-10-03 22:09:10.584 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2020-10-04 22:09:09
+2023-10-03 22:09:10.585 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-01-01 22:09:09
+2023-10-03 22:09:10.589 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-10-02 22:09:09
+2023-10-03 22:09:10.590 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-09-26 22:09:09
+2023-10-03 22:09:10.591 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-07-05 22:09:09
+2023-10-03 22:09:10.592 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2022-10-03 22:09:09
+2023-10-03 22:09:10.593 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2021-10-05 22:09:09
+2023-10-03 22:09:10.593 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2020-10-04 22:09:09
+2023-10-03 22:09:10.594 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-01-01 22:09:09
+2023-10-03 22:09:10.604 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-10-02 22:09:09
+2023-10-03 22:09:10.609 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-09-26 22:09:09
+2023-10-03 22:09:10.625 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2022-10-03 22:09:09
+2023-10-03 22:09:10.631 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2021-10-05 22:09:09
+2023-10-03 22:09:10.638 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2020-10-04 22:09:09
+2023-10-03 22:09:10.645 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-01-01 22:09:09
+2023-10-03 22:09:10.656 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-10-02 22:09:09
+2023-10-03 22:09:10.658 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-09-26 22:09:09
+2023-10-03 22:09:10.663 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2022-10-03 22:09:09
+2023-10-03 22:09:10.665 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2021-10-05 22:09:09
+2023-10-03 22:09:10.667 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2020-10-04 22:09:09
+2023-10-03 22:09:10.669 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-01-01 22:09:09
+2023-10-03 22:09:10.675 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-10-02 22:09:09
+2023-10-03 22:09:10.678 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-09-26 22:09:09
+2023-10-03 22:09:10.683 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2022-10-03 22:09:09
+2023-10-03 22:09:10.685 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2021-10-05 22:09:09
+2023-10-03 22:09:10.687 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2020-10-04 22:09:09
+2023-10-03 22:09:10.689 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-01-01 22:09:09
+2023-10-03 22:09:10.696 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-10-02 22:09:09
+2023-10-03 22:09:10.698 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-09-26 22:09:09
+2023-10-03 22:09:10.703 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2022-10-03 22:09:09
+2023-10-03 22:09:10.705 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2021-10-05 22:09:09
+2023-10-03 22:09:10.707 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2020-10-04 22:09:09
+2023-10-03 22:09:10.709 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-01-01 22:09:09
+2023-10-03 22:09:10.719 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-10-02 22:09:09
+2023-10-03 22:09:10.722 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-09-26 22:09:09
+2023-10-03 22:09:10.734 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2022-10-03 22:09:09
+2023-10-03 22:09:10.738 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2021-10-05 22:09:09
+2023-10-03 22:09:10.742 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2020-10-04 22:09:09
+2023-10-03 22:09:10.746 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-01-01 22:09:09
+2023-10-03 22:09:10.812 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-10-02 22:09:09
+2023-10-03 22:09:10.816 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-09-26 22:09:09
+2023-10-03 22:09:10.823 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2022-10-03 22:09:09
+2023-10-03 22:09:10.825 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2021-10-05 22:09:09
+2023-10-03 22:09:10.827 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2020-10-04 22:09:09
+2023-10-03 22:09:10.829 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-01-01 22:09:09
+2023-10-03 22:09:10.838 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-10-02 22:09:09
+2023-10-03 22:09:10.842 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-09-26 22:09:09
+2023-10-03 22:09:10.853 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2022-10-03 22:09:09
+2023-10-03 22:09:10.857 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2021-10-05 22:09:09
+2023-10-03 22:09:10.861 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2020-10-04 22:09:09
+2023-10-03 22:09:10.864 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-01-01 22:09:09
+2023-10-03 22:09:10.874 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-10-02 22:09:09
+2023-10-03 22:09:10.878 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-09-26 22:09:09
+2023-10-03 22:09:10.884 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2022-10-03 22:09:09
+2023-10-03 22:09:10.887 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2021-10-05 22:09:09
+2023-10-03 22:09:10.889 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2020-10-04 22:09:09
+2023-10-03 22:09:10.892 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-01-01 22:09:09
+2023-10-03 22:09:10.902 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-10-02 22:09:09
+2023-10-03 22:09:10.906 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-09-26 22:09:09
+2023-10-03 22:09:10.917 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2022-10-03 22:09:09
+2023-10-03 22:09:10.921 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2021-10-05 22:09:09
+2023-10-03 22:09:10.925 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2020-10-04 22:09:09
+2023-10-03 22:09:10.929 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-01-01 22:09:09
+2023-10-03 22:09:10.939 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-10-02 22:09:09
+2023-10-03 22:09:10.941 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-09-26 22:09:09
+2023-10-03 22:09:10.946 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2022-10-03 22:09:09
+2023-10-03 22:09:10.949 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2021-10-05 22:09:09
+2023-10-03 22:09:10.951 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2020-10-04 22:09:09
+2023-10-03 22:09:10.953 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-01-01 22:09:09
+2023-10-03 22:09:10.960 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-10-02 22:09:09
+2023-10-03 22:09:10.962 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-09-26 22:09:09
+2023-10-03 22:09:10.969 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2022-10-03 22:09:09
+2023-10-03 22:09:10.972 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2021-10-05 22:09:09
+2023-10-03 22:09:10.974 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2020-10-04 22:09:09
+2023-10-03 22:09:10.976 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-01-01 22:09:09
+2023-10-03 22:09:10.986 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-10-02 22:09:09
+2023-10-03 22:09:10.992 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-09-26 22:09:09
+2023-10-03 22:09:11.007 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2022-10-03 22:09:09
+2023-10-03 22:09:11.013 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2021-10-05 22:09:09
+2023-10-03 22:09:11.019 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2020-10-04 22:09:09
+2023-10-03 22:09:11.025 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-01-01 22:09:09
+2023-10-03 22:09:11.035 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-10-02 22:09:09
+2023-10-03 22:09:11.036 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-09-26 22:09:09
+2023-10-03 22:09:11.037 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-09-05 22:09:09
+2023-10-03 22:09:11.038 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-07-05 22:09:09
+2023-10-03 22:09:11.039 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2022-10-03 22:09:09
+2023-10-03 22:09:11.040 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2021-10-05 22:09:09
+2023-10-03 22:09:11.041 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2020-10-04 22:09:09
+2023-10-03 22:09:11.042 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-01-01 22:09:09
+2023-10-03 22:09:11.046 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-10-02 22:09:09
+2023-10-03 22:09:11.046 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-09-26 22:09:09
+2023-10-03 22:09:11.047 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-07-05 22:09:09
+2023-10-03 22:09:11.047 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2022-10-03 22:09:09
+2023-10-03 22:09:11.047 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2021-10-05 22:09:09
+2023-10-03 22:09:11.047 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2020-10-04 22:09:09
+2023-10-03 22:09:11.047 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-01-01 22:09:09
+2023-10-03 22:09:11.055 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-10-02 22:09:09
+2023-10-03 22:09:11.059 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-09-26 22:09:09
+2023-10-03 22:09:11.073 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2022-10-03 22:09:09
+2023-10-03 22:09:11.077 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2021-10-05 22:09:09
+2023-10-03 22:09:11.081 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2020-10-04 22:09:09
+2023-10-03 22:09:11.086 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-01-01 22:09:09
+2023-10-03 22:09:11.095 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-10-02 22:09:09
+2023-10-03 22:09:11.097 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-09-26 22:09:09
+2023-10-03 22:09:11.101 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2022-10-03 22:09:09
+2023-10-03 22:09:11.103 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2021-10-05 22:09:09
+2023-10-03 22:09:11.105 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2020-10-04 22:09:09
+2023-10-03 22:09:11.106 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-01-01 22:09:09
+2023-10-03 22:09:11.113 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-10-02 22:09:09
+2023-10-03 22:09:11.114 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-09-26 22:09:09
+2023-10-03 22:09:11.119 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2022-10-03 22:09:09
+2023-10-03 22:09:11.121 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2021-10-05 22:09:09
+2023-10-03 22:09:11.122 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2020-10-04 22:09:09
+2023-10-03 22:09:11.124 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-01-01 22:09:09
+2023-10-03 22:09:11.130 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-10-02 22:09:09
+2023-10-03 22:09:11.132 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-09-26 22:09:09
+2023-10-03 22:09:11.134 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2022-10-03 22:09:09
+2023-10-03 22:09:11.135 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2021-10-05 22:09:09
+2023-10-03 22:09:11.136 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2020-10-04 22:09:09
+2023-10-03 22:09:11.136 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-01-01 22:09:09
+2023-10-03 22:09:11.145 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-10-02 22:09:09
+2023-10-03 22:09:11.149 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-09-26 22:09:09
+2023-10-03 22:09:11.163 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2022-10-03 22:09:09
+2023-10-03 22:09:11.167 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2021-10-05 22:09:09
+2023-10-03 22:09:11.171 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2020-10-04 22:09:09
+2023-10-03 22:09:11.175 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-01-01 22:09:09
+2023-10-03 22:09:11.223 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-10-02 22:09:09
+2023-10-03 22:09:11.225 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-09-26 22:09:09
+2023-10-03 22:09:11.231 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2022-10-03 22:09:09
+2023-10-03 22:09:11.233 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2021-10-05 22:09:09
+2023-10-03 22:09:11.234 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2020-10-04 22:09:09
+2023-10-03 22:09:11.236 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-01-01 22:09:09
+2023-10-03 22:09:11.243 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-10-02 22:09:09
+2023-10-03 22:09:11.247 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-09-26 22:09:09
+2023-10-03 22:09:11.256 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2022-10-03 22:09:09
+2023-10-03 22:09:11.259 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2021-10-05 22:09:09
+2023-10-03 22:09:11.262 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2020-10-04 22:09:09
+2023-10-03 22:09:11.265 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-01-01 22:09:09
+2023-10-03 22:09:11.272 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-10-02 22:09:09
+2023-10-03 22:09:11.273 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-09-26 22:09:09
+2023-10-03 22:09:11.276 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2022-10-03 22:09:09
+2023-10-03 22:09:11.277 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2021-10-05 22:09:09
+2023-10-03 22:09:11.277 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2020-10-04 22:09:09
+2023-10-03 22:09:11.278 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-01-01 22:09:09
+2023-10-03 22:09:11.284 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-10-02 22:09:09
+2023-10-03 22:09:11.287 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-09-26 22:09:09
+2023-10-03 22:09:11.294 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2022-10-03 22:09:09
+2023-10-03 22:09:11.296 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2021-10-05 22:09:09
+2023-10-03 22:09:11.299 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2020-10-04 22:09:09
+2023-10-03 22:09:11.302 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :188  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-01-01 22:09:09
