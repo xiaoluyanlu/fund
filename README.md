@@ -12,3 +12,7 @@
   generator模块(快速生成持久层的代码,admin,mapper)  
   http文件(测试增删改查,分页查询)  
   log文件(日志)  
+
+版本:  
+  jdk 17  
+  springBoot 3.0.0  

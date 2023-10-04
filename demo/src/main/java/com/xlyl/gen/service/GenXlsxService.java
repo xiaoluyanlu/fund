@@ -1,13 +1,7 @@
 package com.xlyl.gen.service;
 
 import java.math.BigDecimal;
-import java.math.BigInteger;
-import java.text.DecimalFormat;
-import java.time.LocalDateTime;
-import java.time.format.DateTimeFormatter;
-import java.util.Date;
 
-import cn.hutool.core.date.DateTime;
 import cn.hutool.core.date.DateUtil;
 import com.xlyl.common.util.SnowUtil;
 import com.xlyl.gen.domain.FundNetVal;
@@ -15,10 +9,7 @@ import com.xlyl.gen.domain.FundNetVal;
 import com.xlyl.gen.mapper.FundNetValMapper;
 import jakarta.annotation.Resource;
 import org.apache.commons.io.FileUtils;
-import org.apache.poi.hpsf.Decimal;
 import org.apache.poi.ss.usermodel.*;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.stereotype.Service;
 
 import java.io.File;
@@ -31,12 +22,17 @@ import java.io.IOException;
  * @注释
  */
 @Service
-public class GenXlsx {
+public class GenXlsxService {
+
+
+    //    private static String path="E:\\workspace\\fund\\demo\\xlsx\\FUND_NET_VAL_008321.xlsx";//绝对路径
+    private static String path="xlsx/FUND_NET_VAL.xlsx";//相对路径(同模块)
+
 
     @Resource
     FundNetValMapper fundNetValMapper;
 
-    public Workbook getWorkbook3(String path) throws IOException {
+    public Workbook getWorkbook(String path) throws IOException {
         FileInputStream inputStream = FileUtils.openInputStream(new File(path));
         return WorkbookFactory.create(inputStream);
     }
@@ -70,12 +66,17 @@ public class GenXlsx {
                     }
                 }
                 fund.setId(SnowUtil.getSnowflakeNextId());
-                System.out.println(fund);
                 fundNetValMapper.insertSelective(fund);
             }
         }
         workbook.close();
     }
 
-
+    /**
+     * 生成基础数据
+     */
+    public void genFundNetVal() throws Exception {
+        Workbook workbook = getWorkbook(path);
+        getCell(workbook);
+    }
 }

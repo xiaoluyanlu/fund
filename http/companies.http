@@ -1,7 +1,7 @@
 ###  查询出所有的热门企业 按照时间排序 最近创建的排在前面  (刚创建好,第一次查询时间较慢)
 GET http://localhost:8001/companies
 
-###  新增企业
+###  新增企业  (如果公司已存在,需修改字段orgUniCode)
 POST http://localhost:8001/companies/add
 Content-Type: application/json
 
@@ -34,10 +34,12 @@ Content-Type: application/json
 ###  根据公司id删除指定企业
 DELETE http://localhost:8001/companies/1708853574726979584
 
-###  生成基金的数据(生成基金 找的是有效发行时间  未找到就返回0  除去周六日为有效时间) 数据不够所以都是0
-GET http://localhost:8001/companies/gen-fund
-
 ###  分页查询基金信息返回指定的字段(数据库的字段  unit_net_val  排序升序asc )
 GET http://localhost:8001/companies/fund?pageNum=1&pageSize=5&sortField=unit_net_val&sortDirection=asc
 
 
+###  demo模块,从xlsx文件中的获取数据 生成到 fund_net_val表中
+GET http://localhost:9001/demo/gen
+
+###  companies模块,生成基金的数据(生成基金 找的是有效发行时间  未找到就返回0  除去周六日为有效时间) 数据不够所以都是0
+GET http://localhost:8001/companies/gen-fund

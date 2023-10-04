@@ -3573,3 +3573,45 @@ Caused by: java.net.ConnectException: Connection timed out: no further informati
 2023-10-04 08:52:16.254 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 9001 (http) with context path '/demo'
 2023-10-04 08:52:16.261 INFO  com.xlyl.gen.config.GenApplication                :57   [32m                  [0;39m Started GenApplication in 1.456 seconds (process running for 1.87)
 2023-10-04 08:52:16.262 INFO  com.xlyl.gen.config.GenApplication                :26   [32m                  [0;39m 启动成功!!
+2023-10-04 09:46:17.002 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2023-10-04 09:46:17.032 INFO  com.xlyl.companies.config.CompaniesApplication    :51   [32m                  [0;39m Starting CompaniesApplication using Java 19.0.1 with PID 2272 (E:\workspace\sl-express\fund\companies\target\classes started by 86173 in E:\workspace\sl-express\fund)
+2023-10-04 09:46:17.033 INFO  com.xlyl.companies.config.CompaniesApplication    :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-04 09:46:17.894 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
+2023-10-04 09:46:17.900 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2023-10-04 09:46:17.901 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-10-04 09:46:17.901 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-10-04 09:46:17.970 INFO  o.a.c.c.C.[Tomcat].[localhost].[/companies]       :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-04 09:46:17.970 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 902 ms
+2023-10-04 09:46:18.380 WARN  o.s.core.LocalVariableTableParameterNameDiscoverer:123  [32m                  [0;39m Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.github.pagehelper.autoconfigure.PageHelperStandardProperties
+2023-10-04 09:46:18.436 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2023-10-04 09:46:18.451 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/companies'
+2023-10-04 09:46:18.456 INFO  com.xlyl.companies.config.CompaniesApplication    :57   [32m                  [0;39m Started CompaniesApplication in 1.826 seconds (process running for 2.457)
+2023-10-04 09:46:18.458 INFO  com.xlyl.companies.config.CompaniesApplication    :26   [32m                  [0;39m 启动成功!!
+2023-10-04 09:46:18.458 INFO  com.xlyl.companies.config.CompaniesApplication    :27   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/companies
+2023-10-04 09:46:44.588 INFO  o.a.c.c.C.[Tomcat].[localhost].[/companies]       :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-04 09:46:44.588 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2023-10-04 09:46:44.589 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 1 ms
+2023-10-04 09:46:44.687 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-1 - Starting...
+2023-10-04 09:47:08.226 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  [32m                  [0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3b5e846a
+2023-10-04 09:47:08.228 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-1 - Start completed.
+2023-10-04 09:47:08.390 INFO  c.xlyl.companies.service.impl.CompaniesServiceImpl:56   [32m                  [0;39m 查询到的热门企业: [CompaniesResp{id=1708840013673926656, orgUniCode=2023050505, orgChiName='晓路言路jj', induSmaPar='其他', orgDele='小鹿', regCap=9999.8800, orgEstDate=Thu Sep 14 00:00:00 CST 2023}, CompaniesResp{id=3, orgUniCode=203711818, orgChiName='恒大新能源汽车投资控股集团有限公司', induSmaPar='', orgDele='刘俊
+', regCap=350000.0000, orgEstDate=Fri Jan 25 00:00:00 CST 2019}, CompaniesResp{id=4, orgUniCode=20059413129, orgChiName='钉钉(中国)信息技术有限公司
+', induSmaPar='软件和信息技术服务业
+', orgDele='叶军
+', regCap=200000.0000, orgEstDate=Tue Mar 13 00:00:00 CST 2018}, CompaniesResp{id=1, orgUniCode=200458744, orgChiName='深圳正威(集团)有限公司
+', induSmaPar='房地产开发经营
+', orgDele='王文银
+', regCap=700000.0000, orgEstDate=Fri Sep 02 00:00:00 CST 2011}, CompaniesResp{id=5, orgUniCode=200060327, orgChiName='碧桂园控股有限公司
+', induSmaPar='房地产开发经营
+房地产开发经营
+', orgDele='', regCap=1000000.0000, orgEstDate=Fri Nov 10 00:00:00 CST 2006}, CompaniesResp{id=2, orgUniCode=200000157, orgChiName='漳州片仔癀药业股份有限公司
+', induSmaPar='医药制造业
+', orgDele='林纬奇
+', regCap=60331.7200, orgEstDate=Tue Dec 28 00:00:00 CST 1999}]
+2023-10-04 09:48:01.252 INFO  c.xlyl.companies.service.impl.CompaniesServiceImpl:115  [32m                  [0;39m 查询到指定的公司: Companies [Hash = 1153293500, id=1708840013673926656, orgUniCode=2023050505, orgChiName=晓路言路jj, induSmaPar=其他, orgDele=小鹿, regCap=9999.8800, orgEstDate=Thu Sep 14 00:00:00 CST 2023]
+2023-10-04 09:48:37.956 INFO  com.xlyl.companies.service.impl.FundServiceImpl   :72   [32m                  [0;39m 查询页码: 1
+2023-10-04 09:48:37.957 INFO  com.xlyl.companies.service.impl.FundServiceImpl   :73   [32m                  [0;39m 每页条数: 5
+2023-10-04 09:48:38.043 INFO  com.xlyl.companies.service.impl.FundServiceImpl   :78   [32m                  [0;39m 总行数: 38
+2023-10-04 09:48:38.043 INFO  com.xlyl.companies.service.impl.FundServiceImpl   :79   [32m                  [0;39m 总页数: 8
+2023-10-04 09:48:50.615 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
+2023-10-04 09:48:50.645 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
