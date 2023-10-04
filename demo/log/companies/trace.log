@@ -147,3 +147,7 @@
 2023-10-04 08:59:21.979 INFO  com.xlyl.gen.config.GenXlsxTest                   :51   [32m                  [0;39m Starting GenXlsxTest using Java 17.0.5 with PID 12200 (started by 86173 in E:\workspace\sl-express\fund\demo)
 2023-10-04 08:59:21.981 INFO  com.xlyl.gen.config.GenXlsxTest                   :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
 2023-10-04 08:59:23.095 INFO  com.xlyl.gen.config.GenXlsxTest                   :57   [32m                  [0;39m Started GenXlsxTest in 1.458 seconds (process running for 2.163)
+2023-10-04 10:36:55.418 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2023-10-04 10:36:55.434 INFO  com.xlyl.gen.config.GenXlsxTest                   :51   [32m                  [0;39m Starting GenXlsxTest using Java 19.0.1 with PID 11280 (started by 86173 in E:\workspace\sl-express\fund\demo)
+2023-10-04 10:36:55.435 INFO  com.xlyl.gen.config.GenXlsxTest                   :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-04 10:36:56.619 INFO  com.xlyl.gen.config.GenXlsxTest                   :57   [32m                  [0;39m Started GenXlsxTest in 1.468 seconds (process running for 2.286)

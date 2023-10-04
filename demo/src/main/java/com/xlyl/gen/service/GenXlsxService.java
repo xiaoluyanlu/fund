@@ -25,8 +25,8 @@ import java.io.IOException;
 public class GenXlsxService {
 
 
-    //    private static String path="E:\\workspace\\fund\\demo\\xlsx\\FUND_NET_VAL_008321.xlsx";//绝对路径
-    private static String path="xlsx/FUND_NET_VAL.xlsx";//相对路径(同模块)
+//        private static String path="E:\\workspace\\sl-express\\fund\\demo\\xlsx\\FUND_NET_VAL.xlsx";//绝对路径
+    private static String path="demo/xlsx/FUND_NET_VAL.xlsx";//相对路径(同模块)
 
 
     @Resource

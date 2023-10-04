@@ -3615,3 +3615,625 @@ Caused by: java.net.ConnectException: Connection timed out: no further informati
 2023-10-04 09:48:38.043 INFO  com.xlyl.companies.service.impl.FundServiceImpl   :79   [32m                  [0;39m 总页数: 8
 2023-10-04 09:48:50.615 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
 2023-10-04 09:48:50.645 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
+2023-10-04 10:26:47.730 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2023-10-04 10:26:47.749 INFO  com.xlyl.gen.config.GenApplication                :51   [32m                  [0;39m Starting GenApplication using Java 19.0.1 with PID 12104 (E:\workspace\sl-express\fund\demo\target\classes started by 86173 in E:\workspace\sl-express\fund)
+2023-10-04 10:26:47.749 INFO  com.xlyl.gen.config.GenApplication                :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-04 10:26:48.410 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 9001 (http)
+2023-10-04 10:26:48.416 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-9001"]
+2023-10-04 10:26:48.417 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-10-04 10:26:48.417 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-10-04 10:26:48.496 INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/demo]:173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-04 10:26:48.497 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 721 ms
+2023-10-04 10:26:48.861 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-9001"]
+2023-10-04 10:26:48.881 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 9001 (http) with context path '/demo'
+2023-10-04 10:26:48.886 INFO  com.xlyl.gen.config.GenApplication                :57   [32m                  [0;39m Started GenApplication in 1.47 seconds (process running for 2.104)
+2023-10-04 10:26:48.888 INFO  com.xlyl.gen.config.GenApplication                :26   [32m                  [0;39m 启动成功!!
+2023-10-04 10:26:54.356 INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/demo]:173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-04 10:26:54.357 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2023-10-04 10:26:54.358 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 1 ms
+2023-10-04 10:26:54.377 ERROR c.xlyl.common.exception.ControllerExceptionHandler:31   [32m                  [0;39m 系统异常: 
+java.io.FileNotFoundException: xlsx\FUND_NET_VAL.xlsx (系统找不到指定的路径。)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:158)
+	at org.apache.commons.io.FileUtils.openInputStream(FileUtils.java:2388)
+	at com.xlyl.gen.service.GenXlsxService.getWorkbook(GenXlsxService.java:36)
+	at com.xlyl.gen.service.GenXlsxService.genFundNetVal(GenXlsxService.java:79)
+	at com.xlyl.gen.controller.GenController.genFundNetVal(GenController.java:20)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1080)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:973)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:895)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:705)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:880)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1739)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+2023-10-04 10:28:25.921 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2023-10-04 10:28:25.942 INFO  com.xlyl.gen.config.GenApplication                :51   [32m                  [0;39m Starting GenApplication using Java 19.0.1 with PID 25328 (E:\workspace\sl-express\fund\demo\target\classes started by 86173 in E:\workspace\sl-express\fund)
+2023-10-04 10:28:25.943 INFO  com.xlyl.gen.config.GenApplication                :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-04 10:28:26.563 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 9001 (http)
+2023-10-04 10:28:26.569 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-9001"]
+2023-10-04 10:28:26.570 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-10-04 10:28:26.570 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-10-04 10:28:26.647 INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/demo]:173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-04 10:28:26.648 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 677 ms
+2023-10-04 10:28:27.010 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-9001"]
+2023-10-04 10:28:27.030 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 9001 (http) with context path '/demo'
+2023-10-04 10:28:27.035 INFO  com.xlyl.gen.config.GenApplication                :57   [32m                  [0;39m Started GenApplication in 1.455 seconds (process running for 1.962)
+2023-10-04 10:28:27.036 INFO  com.xlyl.gen.config.GenApplication                :26   [32m                  [0;39m 启动成功!!
+2023-10-04 10:28:34.882 INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/demo]:173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-04 10:28:34.883 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2023-10-04 10:28:34.883 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 0 ms
+2023-10-04 10:28:34.903 ERROR c.xlyl.common.exception.ControllerExceptionHandler:31   [32m                  [0;39m 系统异常: 
+java.io.FileNotFoundException: xlsx\FUND_NET_VAL.xlsx (系统找不到指定的路径。)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:158)
+	at org.apache.commons.io.FileUtils.openInputStream(FileUtils.java:2388)
+	at com.xlyl.gen.service.GenXlsxService.getWorkbook(GenXlsxService.java:36)
+	at com.xlyl.gen.service.GenXlsxService.genFundNetVal(GenXlsxService.java:80)
+	at com.xlyl.gen.controller.GenController.genFundNetVal(GenController.java:20)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1080)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:973)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:895)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:705)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:880)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1739)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+2023-10-04 10:30:21.292 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2023-10-04 10:30:21.312 INFO  com.xlyl.gen.config.GenApplication                :51   [32m                  [0;39m Starting GenApplication using Java 19.0.1 with PID 21960 (E:\workspace\sl-express\fund\demo\target\classes started by 86173 in E:\workspace\sl-express\fund)
+2023-10-04 10:30:21.313 INFO  com.xlyl.gen.config.GenApplication                :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-04 10:30:21.922 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 9001 (http)
+2023-10-04 10:30:21.928 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-9001"]
+2023-10-04 10:30:21.929 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-10-04 10:30:21.929 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-10-04 10:30:22.004 INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/demo]:173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-04 10:30:22.005 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 664 ms
+2023-10-04 10:30:22.368 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-9001"]
+2023-10-04 10:30:22.387 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 9001 (http) with context path '/demo'
+2023-10-04 10:30:22.393 INFO  com.xlyl.gen.config.GenApplication                :57   [32m                  [0;39m Started GenApplication in 1.437 seconds (process running for 1.93)
+2023-10-04 10:30:22.394 INFO  com.xlyl.gen.config.GenApplication                :26   [32m                  [0;39m 启动成功!!
+2023-10-04 10:30:28.432 INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/demo]:173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-04 10:30:28.432 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2023-10-04 10:30:28.433 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 1 ms
+2023-10-04 10:30:28.453 ERROR c.xlyl.common.exception.ControllerExceptionHandler:31   [32m                  [0;39m 系统异常: 
+java.io.FileNotFoundException: xlsx\FUND_NET_VAL.xlsx (系统找不到指定的路径。)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:158)
+	at org.apache.commons.io.FileUtils.openInputStream(FileUtils.java:2388)
+	at com.xlyl.gen.service.GenXlsxService.getWorkbook(GenXlsxService.java:36)
+	at com.xlyl.gen.service.GenXlsxService.genFundNetVal(GenXlsxService.java:80)
+	at com.xlyl.gen.controller.GenController.genFundNetVal(GenController.java:20)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1080)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:973)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:895)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:705)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:880)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1739)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+2023-10-04 10:31:55.306 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2023-10-04 10:31:55.326 INFO  com.xlyl.gen.config.GenApplication                :51   [32m                  [0;39m Starting GenApplication using Java 19.0.1 with PID 19384 (E:\workspace\sl-express\fund\demo\target\classes started by 86173 in E:\workspace\sl-express\fund)
+2023-10-04 10:31:55.327 INFO  com.xlyl.gen.config.GenApplication                :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-04 10:31:55.952 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 9001 (http)
+2023-10-04 10:31:55.957 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-9001"]
+2023-10-04 10:31:55.958 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-10-04 10:31:55.958 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-10-04 10:31:56.034 INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/demo]:173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-04 10:31:56.034 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 679 ms
+2023-10-04 10:31:56.387 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-9001"]
+2023-10-04 10:31:56.401 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 9001 (http) with context path '/demo'
+2023-10-04 10:31:56.407 INFO  com.xlyl.gen.config.GenApplication                :57   [32m                  [0;39m Started GenApplication in 1.428 seconds (process running for 1.943)
+2023-10-04 10:31:56.408 INFO  com.xlyl.gen.config.GenApplication                :26   [32m                  [0;39m 启动成功!!
+2023-10-04 10:32:02.365 INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/demo]:173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-04 10:32:02.365 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2023-10-04 10:32:02.366 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 1 ms
+2023-10-04 10:32:58.084 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2023-10-04 10:32:58.105 INFO  com.xlyl.gen.config.GenApplication                :51   [32m                  [0;39m Starting GenApplication using Java 19.0.1 with PID 16544 (E:\workspace\sl-express\fund\demo\target\classes started by 86173 in E:\workspace\sl-express\fund)
+2023-10-04 10:32:58.106 INFO  com.xlyl.gen.config.GenApplication                :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-04 10:32:58.715 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 9001 (http)
+2023-10-04 10:32:58.721 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-9001"]
+2023-10-04 10:32:58.722 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-10-04 10:32:58.722 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-10-04 10:32:58.798 INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/demo]:173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-04 10:32:58.798 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 665 ms
+2023-10-04 10:32:59.152 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-9001"]
+2023-10-04 10:32:59.165 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 9001 (http) with context path '/demo'
+2023-10-04 10:32:59.171 INFO  com.xlyl.gen.config.GenApplication                :57   [32m                  [0;39m Started GenApplication in 1.417 seconds (process running for 1.916)
+2023-10-04 10:32:59.172 INFO  com.xlyl.gen.config.GenApplication                :26   [32m                  [0;39m 启动成功!!
+2023-10-04 10:33:03.382 INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/demo]:173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-04 10:33:03.382 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2023-10-04 10:33:03.383 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 0 ms
+2023-10-04 10:33:03.403 ERROR c.xlyl.common.exception.ControllerExceptionHandler:31   [32m                  [0;39m 系统异常: 
+java.io.FileNotFoundException: \xlsx\FUND_NET_VAL.xlsx (系统找不到指定的路径。)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:158)
+	at org.apache.commons.io.FileUtils.openInputStream(FileUtils.java:2388)
+	at com.xlyl.gen.service.GenXlsxService.getWorkbook(GenXlsxService.java:36)
+	at com.xlyl.gen.service.GenXlsxService.genFundNetVal(GenXlsxService.java:80)
+	at com.xlyl.gen.controller.GenController.genFundNetVal(GenController.java:20)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1080)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:973)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:895)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:705)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:880)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1739)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+2023-10-04 10:33:20.425 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2023-10-04 10:33:20.446 INFO  com.xlyl.gen.config.GenApplication                :51   [32m                  [0;39m Starting GenApplication using Java 19.0.1 with PID 8992 (E:\workspace\sl-express\fund\demo\target\classes started by 86173 in E:\workspace\sl-express\fund)
+2023-10-04 10:33:20.464 INFO  com.xlyl.gen.config.GenApplication                :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-04 10:33:21.066 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 9001 (http)
+2023-10-04 10:33:21.071 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-9001"]
+2023-10-04 10:33:21.072 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-10-04 10:33:21.072 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-10-04 10:33:21.147 INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/demo]:173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-04 10:33:21.147 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 656 ms
+2023-10-04 10:33:21.502 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-9001"]
+2023-10-04 10:33:21.515 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 9001 (http) with context path '/demo'
+2023-10-04 10:33:21.521 INFO  com.xlyl.gen.config.GenApplication                :57   [32m                  [0;39m Started GenApplication in 1.415 seconds (process running for 1.9)
+2023-10-04 10:33:21.522 INFO  com.xlyl.gen.config.GenApplication                :26   [32m                  [0;39m 启动成功!!
+2023-10-04 10:33:31.588 INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/demo]:173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-04 10:33:31.589 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2023-10-04 10:33:31.589 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 0 ms
+2023-10-04 10:33:31.610 ERROR c.xlyl.common.exception.ControllerExceptionHandler:31   [32m                  [0;39m 系统异常: 
+java.io.FileNotFoundException: xlsx\FUND_NET_VAL.xlsx (系统找不到指定的路径。)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:158)
+	at org.apache.commons.io.FileUtils.openInputStream(FileUtils.java:2388)
+	at com.xlyl.gen.service.GenXlsxService.getWorkbook(GenXlsxService.java:36)
+	at com.xlyl.gen.service.GenXlsxService.genFundNetVal(GenXlsxService.java:80)
+	at com.xlyl.gen.controller.GenController.genFundNetVal(GenController.java:20)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1080)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:973)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:895)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:705)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:880)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1739)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+2023-10-04 10:33:56.246 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2023-10-04 10:33:56.267 INFO  com.xlyl.gen.config.GenApplication                :51   [32m                  [0;39m Starting GenApplication using Java 19.0.1 with PID 14324 (E:\workspace\sl-express\fund\demo\target\classes started by 86173 in E:\workspace\sl-express\fund)
+2023-10-04 10:33:56.267 INFO  com.xlyl.gen.config.GenApplication                :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-04 10:33:56.866 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 9001 (http)
+2023-10-04 10:33:56.872 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-9001"]
+2023-10-04 10:33:56.873 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-10-04 10:33:56.873 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-10-04 10:33:56.943 INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/demo]:173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-04 10:33:56.944 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 649 ms
+2023-10-04 10:33:57.305 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-9001"]
+2023-10-04 10:33:57.318 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 9001 (http) with context path '/demo'
+2023-10-04 10:33:57.323 INFO  com.xlyl.gen.config.GenApplication                :57   [32m                  [0;39m Started GenApplication in 1.408 seconds (process running for 1.909)
+2023-10-04 10:33:57.325 INFO  com.xlyl.gen.config.GenApplication                :26   [32m                  [0;39m 启动成功!!
+2023-10-04 10:34:01.558 INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/demo]:173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-04 10:34:01.559 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2023-10-04 10:34:01.559 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 0 ms
+2023-10-04 10:34:01.579 ERROR c.xlyl.common.exception.ControllerExceptionHandler:31   [32m                  [0;39m 系统异常: 
+java.io.FileNotFoundException: xlsx\FUND_NET_VAL.xlsx (系统找不到指定的路径。)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:158)
+	at org.apache.commons.io.FileUtils.openInputStream(FileUtils.java:2388)
+	at com.xlyl.gen.service.GenXlsxService.getWorkbook(GenXlsxService.java:36)
+	at com.xlyl.gen.service.GenXlsxService.genFundNetVal(GenXlsxService.java:80)
+	at com.xlyl.gen.controller.GenController.genFundNetVal(GenController.java:20)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1080)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:973)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:895)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:705)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:880)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1739)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+2023-10-04 10:36:31.859 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2023-10-04 10:36:31.881 INFO  com.xlyl.gen.config.GenApplication                :51   [32m                  [0;39m Starting GenApplication using Java 19.0.1 with PID 24932 (E:\workspace\sl-express\fund\demo\target\classes started by 86173 in E:\workspace\sl-express\fund)
+2023-10-04 10:36:31.882 INFO  com.xlyl.gen.config.GenApplication                :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-04 10:36:32.513 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 9001 (http)
+2023-10-04 10:36:32.519 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-9001"]
+2023-10-04 10:36:32.519 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-10-04 10:36:32.520 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-10-04 10:36:32.599 INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/demo]:173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-04 10:36:32.599 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 689 ms
+2023-10-04 10:36:32.959 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-9001"]
+2023-10-04 10:36:32.978 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 9001 (http) with context path '/demo'
+2023-10-04 10:36:32.983 INFO  com.xlyl.gen.config.GenApplication                :57   [32m                  [0;39m Started GenApplication in 1.478 seconds (process running for 1.984)
+2023-10-04 10:36:32.985 INFO  com.xlyl.gen.config.GenApplication                :26   [32m                  [0;39m 启动成功!!
+2023-10-04 10:37:34.357 INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/demo]:173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-04 10:37:34.358 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2023-10-04 10:37:34.358 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 0 ms
+2023-10-04 10:38:00.805 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2023-10-04 10:38:00.825 INFO  com.xlyl.gen.config.GenApplication                :51   [32m                  [0;39m Starting GenApplication using Java 19.0.1 with PID 15780 (E:\workspace\sl-express\fund\demo\target\classes started by 86173 in E:\workspace\sl-express\fund)
+2023-10-04 10:38:00.825 INFO  com.xlyl.gen.config.GenApplication                :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-04 10:38:01.433 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 9001 (http)
+2023-10-04 10:38:01.438 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-9001"]
+2023-10-04 10:38:01.438 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-10-04 10:38:01.439 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-10-04 10:38:01.507 INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/demo]:173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-04 10:38:01.508 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 655 ms
+2023-10-04 10:38:01.853 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-9001"]
+2023-10-04 10:38:01.866 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 9001 (http) with context path '/demo'
+2023-10-04 10:38:01.871 INFO  com.xlyl.gen.config.GenApplication                :57   [32m                  [0;39m Started GenApplication in 1.38 seconds (process running for 1.859)
+2023-10-04 10:38:01.873 INFO  com.xlyl.gen.config.GenApplication                :26   [32m                  [0;39m 启动成功!!
+2023-10-04 10:38:06.481 INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/demo]:173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-04 10:38:06.481 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2023-10-04 10:38:06.482 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 0 ms
+2023-10-04 10:38:06.502 ERROR c.xlyl.common.exception.ControllerExceptionHandler:31   [32m                  [0;39m 系统异常: 
+java.io.FileNotFoundException: xlsx\FUND_NET_VAL.xlsx (系统找不到指定的路径。)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:158)
+	at org.apache.commons.io.FileUtils.openInputStream(FileUtils.java:2388)
+	at com.xlyl.gen.service.GenXlsxService.getWorkbook(GenXlsxService.java:36)
+	at com.xlyl.gen.service.GenXlsxService.genFundNetVal(GenXlsxService.java:80)
+	at com.xlyl.gen.controller.GenController.genFundNetVal(GenController.java:20)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1080)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:973)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:895)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:705)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:880)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1739)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+2023-10-04 10:38:40.435 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2023-10-04 10:38:40.459 INFO  com.xlyl.gen.config.GenApplication                :51   [32m                  [0;39m Starting GenApplication using Java 19.0.1 with PID 9332 (E:\workspace\sl-express\fund\demo\target\classes started by 86173 in E:\workspace\sl-express\fund)
+2023-10-04 10:38:40.461 INFO  com.xlyl.gen.config.GenApplication                :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-04 10:38:41.075 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 9001 (http)
+2023-10-04 10:38:41.082 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-9001"]
+2023-10-04 10:38:41.083 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-10-04 10:38:41.083 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-10-04 10:38:41.162 INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/demo]:173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-04 10:38:41.163 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 669 ms
+2023-10-04 10:38:41.509 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-9001"]
+2023-10-04 10:38:41.522 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 9001 (http) with context path '/demo'
+2023-10-04 10:38:41.528 INFO  com.xlyl.gen.config.GenApplication                :57   [32m                  [0;39m Started GenApplication in 1.418 seconds (process running for 1.967)
+2023-10-04 10:38:41.530 INFO  com.xlyl.gen.config.GenApplication                :26   [32m                  [0;39m 启动成功!!
+2023-10-04 10:39:29.488 INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/demo]:173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-04 10:39:29.488 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2023-10-04 10:39:29.489 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 0 ms
+2023-10-04 10:39:30.599 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-1 - Starting...
+2023-10-04 10:39:31.284 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  [32m                  [0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@55b3c4ee
+2023-10-04 10:39:31.286 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-1 - Start completed.
+2023-10-04 10:41:01.934 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
+2023-10-04 10:41:01.944 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
+2023-10-04 10:43:52.221 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2023-10-04 10:43:52.240 INFO  com.xlyl.gen.config.GenApplication                :51   [32m                  [0;39m Starting GenApplication using Java 19.0.1 with PID 17868 (E:\workspace\sl-express\fund\demo\target\classes started by 86173 in E:\workspace\sl-express\fund)
+2023-10-04 10:43:52.241 INFO  com.xlyl.gen.config.GenApplication                :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-04 10:43:52.852 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 9001 (http)
+2023-10-04 10:43:52.858 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-9001"]
+2023-10-04 10:43:52.859 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-10-04 10:43:52.859 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-10-04 10:43:52.928 INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/demo]:173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-04 10:43:52.928 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 660 ms
+2023-10-04 10:43:53.271 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-9001"]
+2023-10-04 10:43:53.284 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 9001 (http) with context path '/demo'
+2023-10-04 10:43:53.289 INFO  com.xlyl.gen.config.GenApplication                :57   [32m                  [0;39m Started GenApplication in 1.387 seconds (process running for 1.91)
+2023-10-04 10:43:53.291 INFO  com.xlyl.gen.config.GenApplication                :26   [32m                  [0;39m 启动成功!!
+2023-10-04 10:44:13.870 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2023-10-04 10:44:13.903 INFO  com.xlyl.companies.config.CompaniesApplication    :51   [32m                  [0;39m Starting CompaniesApplication using Java 19.0.1 with PID 24556 (E:\workspace\sl-express\fund\companies\target\classes started by 86173 in E:\workspace\sl-express\fund)
+2023-10-04 10:44:13.904 INFO  com.xlyl.companies.config.CompaniesApplication    :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-04 10:44:14.551 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
+2023-10-04 10:44:14.557 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2023-10-04 10:44:14.557 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-10-04 10:44:14.557 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-10-04 10:44:14.620 INFO  o.a.c.c.C.[Tomcat].[localhost].[/companies]       :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-04 10:44:14.620 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 677 ms
+2023-10-04 10:44:14.981 WARN  o.s.core.LocalVariableTableParameterNameDiscoverer:123  [32m                  [0;39m Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.github.pagehelper.autoconfigure.PageHelperStandardProperties
+2023-10-04 10:44:15.034 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2023-10-04 10:44:15.047 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/companies'
+2023-10-04 10:44:15.053 INFO  com.xlyl.companies.config.CompaniesApplication    :57   [32m                  [0;39m Started CompaniesApplication in 1.5 seconds (process running for 1.945)
+2023-10-04 10:44:15.055 INFO  com.xlyl.companies.config.CompaniesApplication    :26   [32m                  [0;39m 启动成功!!
+2023-10-04 10:44:15.055 INFO  com.xlyl.companies.config.CompaniesApplication    :27   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/companies
+2023-10-04 10:44:57.578 INFO  o.a.c.c.C.[Tomcat].[localhost].[/companies]       :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-04 10:44:57.579 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2023-10-04 10:44:57.579 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 0 ms
+2023-10-04 10:44:57.596 INFO  com.xlyl.companies.service.impl.FundServiceImpl   :95   [32m                  [0;39m 开始生成基金信息...
+2023-10-04 10:44:57.618 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-1 - Starting...
+2023-10-04 10:45:09.323 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  [32m                  [0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6342e090
+2023-10-04 10:45:09.325 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-1 - Start completed.
+2023-10-04 10:45:09.436 INFO  com.xlyl.companies.service.impl.FundServiceImpl   :113  [32m                  [0;39m 生成基金: 110033
+2023-10-04 10:45:09.520 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :239  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-10-03 10:44:57
+2023-10-04 10:45:09.522 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :239  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-09-27 10:44:57
+2023-10-04 10:45:09.529 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :239  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-09-04 10:44:57
+2023-10-04 10:45:09.531 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :239  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-07-06 10:44:57
+2023-10-04 10:45:09.532 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :239  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2022-10-04 10:44:57
+2023-10-04 10:45:09.535 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :239  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2021-10-04 10:44:57
+2023-10-04 10:45:09.537 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :239  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2020-10-06 10:44:57
+2023-10-04 10:45:09.538 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :239  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-01-01 10:44:57
+2023-10-04 10:45:09.562 INFO  com.xlyl.companies.service.impl.FundServiceImpl   :179  [32m                  [0;39m 基金信息为: Fund [Hash = 145210750, id=1709399226947080192, fundCode=110033, fundShortName=易方达恒生国企联接(QDII)(美元现钞), countDate=Wed Oct 04 10:44:57 CST 2023, endDate=Fri Aug 24 00:00:00 CST 2012, unitNetVal=0.17, accumulateNetVal=0.16, dailyGrowthRate=0, oneWeek=0, oneMonth=0, threeMonth=0, oneYear=0, twoYear=0, threeYear=0, sinceThisYear=0, sinceTheEstablishmentOf=5.51]
+2023-10-04 10:45:09.563 INFO  com.xlyl.companies.service.impl.FundServiceImpl   :113  [32m                  [0;39m 生成基金: 110032
+2023-10-04 10:45:09.565 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :239  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-10-03 10:44:57
+2023-10-04 10:45:09.566 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :239  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-09-27 10:44:57
+2023-10-04 10:45:09.567 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :239  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-09-04 10:44:57
+2023-10-04 10:45:09.568 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :239  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-07-06 10:44:57
+2023-10-04 10:45:09.570 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :239  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2022-10-04 10:44:57
+2023-10-04 10:45:09.571 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :239  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2021-10-04 10:44:57
+2023-10-04 10:45:09.572 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :239  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2020-10-06 10:44:57
+2023-10-04 10:45:09.574 ERROR com.xlyl.companies.service.impl.FundServiceImpl   :239  [32m                  [0;39m 数据有缺失,找不到指定日期的数据,赋值为0: 2023-01-01 10:44:57
+2023-10-04 10:45:09.593 INFO  com.xlyl.companies.service.impl.FundServiceImpl   :179  [32m                  [0;39m 基金信息为: Fund [Hash = 1214273427, id=1709399227366510592, fundCode=110032, fundShortName=易方达恒生国企联接(QDII)(美元现汇), countDate=Wed Oct 04 10:44:57 CST 2023, endDate=Fri Aug 24 00:00:00 CST 2012, unitNetVal=0.17, accumulateNetVal=0.16, dailyGrowthRate=0, oneWeek=0, oneMonth=0, threeMonth=0, oneYear=0, twoYear=0, threeYear=0, sinceThisYear=0, sinceTheEstablishmentOf=5.51]
+2023-10-04 10:45:09.593 INFO  com.xlyl.companies.service.impl.FundServiceImpl   :181  [32m                  [0;39m 基金信息生成完毕...
+2023-10-04 10:46:01.681 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
+2023-10-04 10:46:01.686 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.

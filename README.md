@@ -1,8 +1,9 @@
 # fund
 验收:  
   ---1.克隆代码到idea(阿里云的mysqlRDS已配置)  
-  ---2.启动 companies\config\CompaniesApplication.java  
-  ---2.在fund文件下找到http文件,里面写好了访问接口,点击即可查验  
+  ---2.启动companies模块,companies\config\CompaniesApplication.java  
+  ---3.启动demo模块,gen\config\GenApplication.java  (从xlsx文件中的获取数据 生成到 fund_net_val表中)  
+  ---4.在fund文件下找到http文件,里面写好了访问接口,点击即可查验  
 
 
   batch模块(简易定时器)  
@@ -16,3 +17,4 @@
 版本:  
   jdk 17  
   springBoot 3.0.0  
+  mysql 8.0.22
