@@ -21,10 +21,15 @@ import java.util.Date;
 @SpringBootTest
 @RunWith(SpringRunner.class)
 public class GenXlsxTest {
-//    private static String path="E:\\workspace\\fund\\demo\\xlsx\\FUND_NET_VAL_008321.xlsx";
-    private static String path="E:\\workspace\\fund\\demo\\xlsx\\FUND_NET_VAL.xlsx";
+//    private static String path="E:\\workspace\\fund\\demo\\xlsx\\FUND_NET_VAL_008321.xlsx";//绝对路径
+    private static String path="xlsx/FUND_NET_VAL.xlsx";//相对路径(同模块)
     @Resource
     GenXlsx genXlsx;
+
+    /**
+     * 生成基金的基础数据
+     * @throws Exception
+     */
     @Test
     public void getWorkbook3_1() throws Exception {
         Workbook workbook2 = genXlsx.getWorkbook3(path);

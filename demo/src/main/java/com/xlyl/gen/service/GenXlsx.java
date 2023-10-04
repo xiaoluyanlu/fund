@@ -70,6 +70,7 @@ public class GenXlsx {
                     }
                 }
                 fund.setId(SnowUtil.getSnowflakeNextId());
+                System.out.println(fund);
                 fundNetValMapper.insertSelective(fund);
             }
         }

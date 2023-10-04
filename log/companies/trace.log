@@ -3444,3 +3444,132 @@ Caused by: java.net.ConnectException: Connection timed out: no further informati
 2023-10-04 08:08:37.285 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
 2023-10-04 08:08:37.285 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 0 ms
 2023-10-04 08:08:37.336 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-1 - Starting...
+2023-10-04 08:17:01.491 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2023-10-04 08:17:01.528 INFO  com.xlyl.companies.config.CompaniesApplication    :51   [32m                  [0;39m Starting CompaniesApplication using Java 17.0.5 with PID 6268 (E:\workspace\sl-express\fund\companies\target\classes started by 86173 in E:\workspace\sl-express\fund)
+2023-10-04 08:17:01.530 INFO  com.xlyl.companies.config.CompaniesApplication    :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-04 08:17:02.179 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
+2023-10-04 08:17:02.185 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2023-10-04 08:17:02.186 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-10-04 08:17:02.186 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-10-04 08:17:02.240 INFO  o.a.c.c.C.[Tomcat].[localhost].[/companies]       :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-04 08:17:02.241 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 680 ms
+2023-10-04 08:17:02.589 WARN  o.s.core.LocalVariableTableParameterNameDiscoverer:123  [32m                  [0;39m Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.github.pagehelper.autoconfigure.PageHelperStandardProperties
+2023-10-04 08:17:02.652 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2023-10-04 08:17:02.665 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/companies'
+2023-10-04 08:17:02.671 INFO  com.xlyl.companies.config.CompaniesApplication    :57   [32m                  [0;39m Started CompaniesApplication in 1.529 seconds (process running for 2.081)
+2023-10-04 08:17:02.674 INFO  com.xlyl.companies.config.CompaniesApplication    :26   [32m                  [0;39m 启动成功!!
+2023-10-04 08:17:02.674 INFO  com.xlyl.companies.config.CompaniesApplication    :27   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/companies
+2023-10-04 08:17:10.806 INFO  o.a.c.c.C.[Tomcat].[localhost].[/companies]       :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-04 08:17:10.806 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2023-10-04 08:17:10.807 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 1 ms
+2023-10-04 08:17:10.861 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-1 - Starting...
+2023-10-04 08:17:22.426 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  [32m                  [0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1133ef2b
+2023-10-04 08:17:22.430 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-1 - Start completed.
+2023-10-04 08:17:22.915 INFO  c.xlyl.companies.service.impl.CompaniesServiceImpl:56   [32m                  [0;39m 查询到的热门企业: [CompaniesResp{id=1708840013673926656, orgUniCode=2023050505, orgChiName='晓路言路jj', induSmaPar='其他', orgDele='小鹿', regCap=9999.8800, orgEstDate=Thu Sep 14 00:00:00 CST 2023}, CompaniesResp{id=3, orgUniCode=203711818, orgChiName='恒大新能源汽车投资控股集团有限公司', induSmaPar='', orgDele='刘俊
+', regCap=350000.0000, orgEstDate=Fri Jan 25 00:00:00 CST 2019}, CompaniesResp{id=4, orgUniCode=20059413129, orgChiName='钉钉(中国)信息技术有限公司
+', induSmaPar='软件和信息技术服务业
+', orgDele='叶军
+', regCap=200000.0000, orgEstDate=Tue Mar 13 00:00:00 CST 2018}, CompaniesResp{id=1, orgUniCode=200458744, orgChiName='深圳正威(集团)有限公司
+', induSmaPar='房地产开发经营
+', orgDele='王文银
+', regCap=700000.0000, orgEstDate=Fri Sep 02 00:00:00 CST 2011}, CompaniesResp{id=5, orgUniCode=200060327, orgChiName='碧桂园控股有限公司
+', induSmaPar='房地产开发经营
+房地产开发经营
+', orgDele='', regCap=1000000.0000, orgEstDate=Fri Nov 10 00:00:00 CST 2006}, CompaniesResp{id=2, orgUniCode=200000157, orgChiName='漳州片仔癀药业股份有限公司
+', induSmaPar='医药制造业
+', orgDele='林纬奇
+', regCap=60331.7200, orgEstDate=Tue Dec 28 00:00:00 CST 1999}]
+2023-10-04 08:18:56.615 INFO  c.xlyl.companies.service.impl.CompaniesServiceImpl:115  [32m                  [0;39m 查询到指定的公司: Companies [Hash = 1958474697, id=1708840013673926656, orgUniCode=2023050505, orgChiName=晓路言路jj, induSmaPar=其他, orgDele=小鹿, regCap=9999.8800, orgEstDate=Thu Sep 14 00:00:00 CST 2023]
+2023-10-04 08:20:50.037 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
+2023-10-04 08:20:50.400 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
+2023-10-04 08:26:05.983 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2023-10-04 08:26:06.009 INFO  com.xlyl.gen.config.GenApplication                :51   [32m                  [0;39m Starting GenApplication using Java 17.0.5 with PID 23348 (E:\workspace\sl-express\fund\demo\target\classes started by 86173 in E:\workspace\sl-express\fund)
+2023-10-04 08:26:06.010 INFO  com.xlyl.gen.config.GenApplication                :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-04 08:26:06.700 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
+2023-10-04 08:26:06.706 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
+2023-10-04 08:26:06.707 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-10-04 08:26:06.707 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-10-04 08:26:06.772 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-04 08:26:06.773 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 735 ms
+2023-10-04 08:26:07.186 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
+2023-10-04 08:26:07.210 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-04 08:26:07.217 INFO  com.xlyl.gen.config.GenApplication                :57   [32m                  [0;39m Started GenApplication in 1.618 seconds (process running for 2.365)
+2023-10-04 08:26:07.219 INFO  com.xlyl.gen.config.GenApplication                :26   [32m                  [0;39m 启动成功!!
+2023-10-04 08:26:49.113 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2023-10-04 08:26:49.142 INFO  com.xlyl.gen.config.GenApplication                :51   [32m                  [0;39m Starting GenApplication using Java 17.0.5 with PID 24084 (E:\workspace\sl-express\fund\demo\target\classes started by 86173 in E:\workspace\sl-express\fund)
+2023-10-04 08:26:49.143 INFO  com.xlyl.gen.config.GenApplication                :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-04 08:26:49.770 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 9001 (http)
+2023-10-04 08:26:49.776 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-9001"]
+2023-10-04 08:26:49.776 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-10-04 08:26:49.777 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-10-04 08:26:49.838 INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/demo]:173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-04 08:26:49.838 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 665 ms
+2023-10-04 08:26:50.209 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-9001"]
+2023-10-04 08:26:50.238 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 9001 (http) with context path '/demo'
+2023-10-04 08:26:50.244 INFO  com.xlyl.gen.config.GenApplication                :57   [32m                  [0;39m Started GenApplication in 1.473 seconds (process running for 1.918)
+2023-10-04 08:26:50.247 INFO  com.xlyl.gen.config.GenApplication                :26   [32m                  [0;39m 启动成功!!
+2023-10-04 08:38:10.356 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2023-10-04 08:38:10.385 INFO  com.xlyl.gen.config.GenApplication                :51   [32m                  [0;39m Starting GenApplication using Java 17.0.5 with PID 23988 (E:\workspace\sl-express\fund\demo\target\classes started by 86173 in E:\workspace\sl-express\fund)
+2023-10-04 08:38:10.385 INFO  com.xlyl.gen.config.GenApplication                :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-04 08:38:11.028 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 9001 (http)
+2023-10-04 08:38:11.034 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-9001"]
+2023-10-04 08:38:11.036 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-10-04 08:38:11.036 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-10-04 08:38:11.092 INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/demo]:173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-04 08:38:11.092 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 673 ms
+2023-10-04 08:38:11.446 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-9001"]
+2023-10-04 08:38:11.466 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 9001 (http) with context path '/demo'
+2023-10-04 08:38:11.473 INFO  com.xlyl.gen.config.GenApplication                :57   [32m                  [0;39m Started GenApplication in 1.456 seconds (process running for 1.906)
+2023-10-04 08:38:11.474 INFO  com.xlyl.gen.config.GenApplication                :26   [32m                  [0;39m 启动成功!!
+2023-10-04 08:40:23.537 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2023-10-04 08:40:23.571 INFO  com.xlyl.gen.config.GenApplication                :51   [32m                  [0;39m Starting GenApplication using Java 17.0.5 with PID 5916 (E:\workspace\sl-express\fund\demo\target\classes started by 86173 in E:\workspace\sl-express\fund)
+2023-10-04 08:40:23.572 INFO  com.xlyl.gen.config.GenApplication                :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-04 08:40:24.238 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 9001 (http)
+2023-10-04 08:40:24.244 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-9001"]
+2023-10-04 08:40:24.245 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-10-04 08:40:24.245 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-10-04 08:40:24.303 INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/demo]:173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-04 08:40:24.303 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 700 ms
+2023-10-04 08:40:24.648 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-9001"]
+2023-10-04 08:40:24.662 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 9001 (http) with context path '/demo'
+2023-10-04 08:40:24.669 INFO  com.xlyl.gen.config.GenApplication                :57   [32m                  [0;39m Started GenApplication in 1.486 seconds (process running for 1.968)
+2023-10-04 08:40:24.671 INFO  com.xlyl.gen.config.GenApplication                :26   [32m                  [0;39m 启动成功!!
+2023-10-04 08:41:43.943 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2023-10-04 08:41:43.971 INFO  com.xlyl.gen.config.GenApplication                :51   [32m                  [0;39m Starting GenApplication using Java 17.0.5 with PID 1124 (E:\workspace\sl-express\fund\demo\target\classes started by 86173 in E:\workspace\sl-express\fund)
+2023-10-04 08:41:43.972 INFO  com.xlyl.gen.config.GenApplication                :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-04 08:41:44.601 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 9001 (http)
+2023-10-04 08:41:44.608 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-9001"]
+2023-10-04 08:41:44.608 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-10-04 08:41:44.608 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-10-04 08:41:44.669 INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/demo]:173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-04 08:41:44.669 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 663 ms
+2023-10-04 08:41:45.045 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-9001"]
+2023-10-04 08:41:45.066 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 9001 (http) with context path '/demo'
+2023-10-04 08:41:45.075 INFO  com.xlyl.gen.config.GenApplication                :57   [32m                  [0;39m Started GenApplication in 1.511 seconds (process running for 1.984)
+2023-10-04 08:41:45.077 INFO  com.xlyl.gen.config.GenApplication                :26   [32m                  [0;39m 启动成功!!
+2023-10-04 08:49:29.421 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2023-10-04 08:49:29.451 INFO  com.xlyl.gen.config.GenApplication                :51   [32m                  [0;39m Starting GenApplication using Java 17.0.5 with PID 24232 (E:\workspace\sl-express\fund\demo\target\classes started by 86173 in E:\workspace\sl-express\fund)
+2023-10-04 08:49:29.452 INFO  com.xlyl.gen.config.GenApplication                :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-04 08:49:30.081 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 9001 (http)
+2023-10-04 08:49:30.087 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-9001"]
+2023-10-04 08:49:30.087 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-10-04 08:49:30.087 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-10-04 08:49:30.150 INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/demo]:173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-04 08:49:30.151 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 662 ms
+2023-10-04 08:49:30.491 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-9001"]
+2023-10-04 08:49:30.515 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 9001 (http) with context path '/demo'
+2023-10-04 08:49:30.523 INFO  com.xlyl.gen.config.GenApplication                :57   [32m                  [0;39m Started GenApplication in 1.452 seconds (process running for 1.867)
+2023-10-04 08:49:30.525 INFO  com.xlyl.gen.config.GenApplication                :26   [32m                  [0;39m 启动成功!!
+2023-10-04 08:52:15.152 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2023-10-04 08:52:15.182 INFO  com.xlyl.gen.config.GenApplication                :51   [32m                  [0;39m Starting GenApplication using Java 17.0.5 with PID 3392 (E:\workspace\sl-express\fund\demo\target\classes started by 86173 in E:\workspace\sl-express\fund)
+2023-10-04 08:52:15.183 INFO  com.xlyl.gen.config.GenApplication                :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-04 08:52:15.806 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 9001 (http)
+2023-10-04 08:52:15.812 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-9001"]
+2023-10-04 08:52:15.812 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-10-04 08:52:15.813 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-10-04 08:52:15.868 INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/demo]:173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-04 08:52:15.868 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 654 ms
+2023-10-04 08:52:16.228 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-9001"]
+2023-10-04 08:52:16.254 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 9001 (http) with context path '/demo'
+2023-10-04 08:52:16.261 INFO  com.xlyl.gen.config.GenApplication                :57   [32m                  [0;39m Started GenApplication in 1.456 seconds (process running for 1.87)
+2023-10-04 08:52:16.262 INFO  com.xlyl.gen.config.GenApplication                :26   [32m                  [0;39m 启动成功!!
